@@ -58,4 +58,4 @@ $route['translate_uri_dashes'] = FALSE;
 $route['introduce'] = '/user/introduce';
 $route['main'] = '/user';
 $route['top_mpc'] = '/user/top_mpc';
-$route['location_guide'] = '/user/location_guide';
+$route['schedule'] = '/user/schedule';

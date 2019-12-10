@@ -1,1495 +1,885 @@
-/*
-**
-** Default / initial set
-**
-*/
-
 @import url(http://fonts.googleapis.com/earlyaccess/notosanskr.css);
 
-@font-face{
-    font-family:"Utopia";
-    src:url("/font/UtopiaStd-Regular.woff") format('woff');
-    font-weight:400;
+@font-face {
+  font-family: "Utopia";
+  src: url("/font/UtopiaStd-Regular.woff") format("woff");
+  font-weight: 400;
 }
 
-@font-face{
-    font-family:"Utopia";
-    src:url("/font/UtopiaStd-Bold.woff") format('woff');
-    font-weight:700;
+@font-face {
+  font-family: "Utopia";
+  src: url("/font/UtopiaStd-Bold.woff") format("woff");
+  font-weight: 700;
 }
 
 body {
-    font-family: 'Utopia', 'Noto Sans KR', sans-serif;
-    word-break: keep-all;
+  font-family: 'Utopia', 'Noto Sans KR', sans-serif;
+  word-break: keep-all;
 }
 
 html, body {
-    height:100%;
+  letter-spacing: 0;
+  color: #666;
 }
 
 section {
-    position: relative;
-    background-color:#fff;
-    z-index: 300;
+  position: relative;
+  background-color: #fff;
+  z-index: 300;
 }
 
 em {
-    font-style: normal;
+  font-style: normal;
 }
 
 p {
-    margin:0;
+  margin: 0;
 }
-/*
-**
-** Color set
-**
-*/
 
-/* Metlife key color */
-$primary-color:rgb(0, 144, 218);
-$secondary-color:rgb(0, 97, 160);
-$third-color:rgb(164, 208, 70);
-
-$grey-color:rgba(64,72,72,1);
+$primary-color:#0090da;
+$secondary-color:#0061a0;
+$third-color:#a4d046;
 
 .font-color-primary {
-    color:$primary-color;
+  color: $primary-color;
 }
+
 .font-color-secondary {
-    color:$secondary-color;
+  color: $secondary-color;
 }
+
 .font-color-third {
-    color:$third-color;
+  color: $third-color;
 }
+
 .font-color-red {
-    color:rgb(255,0,0);
+  color: red;
 }
-
-/*
-**
-** Navigation
-**
-*/
-
 
 #logo-image {
-    width: 100%;
-    max-width:150px;
+  width: 100%;
+  max-width: 150px;
 }
 
 .welcome-ment {
-    color:rgb(255,255,255);
+  color: #fff;
 
-    #username {
-        font-style: normal;
-    }
+  #username {
+    font-style: normal;
+  }
 }
 
 .navbar {
-    background:$secondary-color;
-    .nav-item {
-        .nav-link {
-            padding-left:1em;
-            padding-right:1em;
-        }
-    }
+  background: #0061a0;
+
+  .nav-item .nav-link {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
 }
 
+.nav-tabs {
+  border: 0;
 
+  .nav-link {
+    border: 0;
+  }
+}
 
-/*
-**
-** Main
-**
-*/
+#contents-tab {
+  width: 100%;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
 
+  &.nav-tabs {
+    padding: 0 30px;
+
+    &.tab-3 .nav-item {
+      width: 33.3%;
+    }
+
+    .nav-item {
+      width: 25%;
+    }
+
+    .nav-link {
+        color: #fff;
+        background-color: #0090da;
+
+      font-weight: 400;
+      font-size: 20px;
+      text-align: center;
+
+      padding: 1rem 1rem 0.8rem;
+
+      &:hover {
+        color: #0090da;
+        background-color: #cce0ee;
+      }
+
+      &.active {
+        color: #0090da;
+        background-color: #fff;
+      }
+    }
+  }
+}
+
+#login-form {
+  top: 50%;
+  margin-top: -121.5px;
+}
+
+#centered-video {
+  position: fixed;
+  z-index: 2000;
+  width: 1000px;
+  height: 600px;
+  left: 50%;
+  top: 50%;
+  margin-left: -500px;
+  margin-top: -300px;
+
+  button {
+    position: absolute;
+    right: 0;
+    top: -50px;
+    color: #fff;
+    background: #0090da;
+    border: 0;
+    padding: 0.7rem .5rem .5rem;
+  }
+}
+
+.img-text-introduce {
+  position: absolute;
+  top: 2rem;
+  left: 50%;
+  margin-left: -319.5px;
+  z-index: 10;
+  width: 639px;
+}
 
 .big-img-container {
-    height:100%;
+  height: 100%;
 
+  &#design-2 {
+    .inner-box {
+      padding: 0;
+      position: relative;
+      overflow: hidden;
 
-    /*
-    ** : 디자인 시안 1
-    */
+      .visual-box {
+        position: relative;
+        top: 0;
+        height: 100%;
+        z-index: 20;
+        color: #fff;
 
-    // &#design-1 {
-    //
-    //     .inner-box {
-    //         padding: 0;
-    //         position: relative;
-    //         overflow: hidden;
-    //     }
-    //
-    //     .visual-box {
-    //         position: relative;
-    //         z-index: 200;
-    //
-    //         width:100%;
-    //         height:100%;
-    //
-    //         img {
-    //
-    //             &.mpc2020-logo {
-    //                 position: absolute;
-    //                 top:9em;
-    //
-    //                 left:50%;
-    //                 margin-left:-60px;
-    //
-    //                 width:120px;
-    //             }
-    //
-    //             &.metlife-logo {
-    //                 position: absolute;
-    //                 bottom:7em;
-    //
-    //                 left:50%;
-    //                 margin-left:-60px;
-    //
-    //                 width:120px;
-    //             }
-    //
-    //         }
-    //
-    //         div {
-    //             &.visual-box-sentence {
-    //                 position: absolute;
-    //                 top: 5%;
-    //                 z-index: 20;
-    //
-    //                 color:#fff;
-    //                 font-size: 1em;
-    //                 padding:1rem;
-    //
-    //                 width:100%;
-    //
-    //
-    //                 h2 {
-    //                     position: relative;
-    //                     margin-top: 9%;
-    //                     text-align: center;
-    //                     font-size: 15em;
-    //                     font-weight: 700;
-    //                     color:rgba(255,255,255,1);
-    //                 }
-    //
-    //                 p {
-    //                     font-size:1.3em;
-    //                     padding:.7em .8em .3em .8em;
-    //                     position: relative;
-    //                     text-align: center;
-    //
-    //                     &.text-in-back {
-    //
-    //                         position: absolute;
-    //                         left: 50%;
-    //                         margin-top:-40px;
-    //
-    //                         color:$primary-color;
-    //
-    //                         background-color:$third-color;
-    //
-    //                         font-weight: 100;
-    //
-    //                     }
-    //
-    //                 }
-    //
-    //                 .typo-1 {
-    //                     font-size: 1.6em;
-    //                     font-weight: 700;
-    //                 }
-    //
-    //                 .typo-2 {
-    //                     font-size: 5em;
-    //                     line-height: 1.1em;
-    //                     margin-bottom:-.2em;
-    //                 }
-    //             }
-    //         }
-    //     }
-    //     .background {
-    //         position:absolute;
-    //         z-index: 10;
-    //
-    //         bottom:-5em;
-    //         right:0;
-    //     }
-    // }
+        h2 {
+          position: relative;
+          text-align: center;
+          font-size: 5.5em;
+          font-weight: 400;
+          color: #fff;
+          letter-spacing: 0.1rem;
+          margin-top: 15%;
 
-    /*
-    ** : 디자인 시안 2
-    */
-
-    &#design-2 {
-        .inner-box {
-            padding: 0;
-            position: relative;
-            overflow: hidden;
-
-            .visual-box {
-                position:relative;
-                top:0;
-                height:100%;
-                z-index: 20;
-
-                &::before {
-                    content:"";
-                    position: absolute;
-                    width:100%;
-                    height:100%;
-                    left:0;
-                    top:0;
-                    z-index: 21;
-
-                    background:rgba(0,0,0,.5);
-                }
-
-                // 비쥬얼 영역 선 두께
-                $border-thickness:.4em;
-
-                .visual-box-sentence {
-                    position: absolute;
-                    top: 45%;
-                    left:15%;
-
-                    width:400px;
-                    height:400px;
-
-                    padding:1.5em;
-
-                    font-size: 1em;
-                    font-weight: 400;
-
-                    overflow: visible;
-
-                    border:$border-thickness solid $third-color;
-                    border-right:none;
-
-                    z-index: 30;
-
-
-
-                    &::before {
-                      content : "";
-                      position: absolute;
-                      right   : 0;
-                      top     : 0;
-                      height  : 5%;
-                      width   : $border-thickness;  /* or 100px */
-                      border-right:$border-thickness solid $third-color;
-                    }
-
-                    &::after {
-                      content : "";
-                      position: absolute;
-                      right   : 0;
-                      bottom  : 0;
-                      height  : 50%;
-                      width   : $border-thickness;  /* or 100px */
-                      border-right:$border-thickness solid $third-color;
-                    }
-
-                    h2 {
-                        position: relative;
-                        text-align: center;
-                        font-size: 10.5em;
-                        font-weight: 700;
-                        color:rgba(255,255,255,1);
-                    }
-
-                    p.text-box {
-                        position: relative;
-
-                        text-align: left;
-                        font-weight: 300;
-                        font-size: 1.7em;
-                        letter-spacing: -.03em;
-                        padding-top:.4em;
-                        margin-top:0;
-                        color:rgba(255,255,255,1);
-
-                        text-shadow: .1em .1em .2em rgba(0,0,0,1);
-
-                    }
-
-                    .typo-1 {
-                        font-weight: 700;
-                    }
-
-                    .typo-2 {
-                        font-size: 5em;
-                        line-height: 1.1em;
-                        margin-bottom:-.2em;
-                    }
-                }
-            }
-
-            img {
-
-                &.mpc2020-logo {
-                    position: absolute;
-                    top:7em;
-
-                    left:50%;
-                    margin-left:-60px;
-
-                    width:120px;
-
-                    z-index: 30;
-                }
-
-                &.metlife-logo {
-                    position: absolute;
-                    bottom:7em;
-
-                    left:50%;
-                    margin-left:-100px;
-
-                    width:200px;
-
-                    z-index: 30;
-                }
-
-            }
+          strong {
+            font-weight: 700;
+          }
         }
-        .background {
-            position:absolute;
-            z-index: 10;
 
-            bottom:0;
-            right:0;
+        p.text-box {
+          position: relative;
+          font-weight: 100;
+          font-size: 25px;
+          text-align: center;
+          letter-spacing: -.03em;
+          padding-top: .4em;
+          padding-left: 1rem;
+          padding-right: 1rem;
+          margin-top: 0;
+          color: #fff;
         }
+      }
     }
 
-
-    /*
-    ** : 디자인 시안 3
-    */
-
-    // &#design-3 {
-    //     .inner-box {
-    //         padding: 0;
-    //         position: relative;
-    //         overflow: hidden;
-    //
-    //         .visual-box {
-    //             position:relative;
-    //             top:0;
-    //             height:100%;
-    //             z-index: 20;
-    //
-    //             div {
-    //                 &.visual-box-sentence {
-    //                     position: absolute;
-    //                     top: 25%;
-    //                     left:50%;
-    //
-    //                     padding: .5em 1.5em 1.5em 1.5em;
-    //
-    //                     font-size: 1em;
-    //                     font-weight: 400;
-    //
-    //                     overflow: visible;
-    //
-    //                     h2 {
-    //                         position: relative;
-    //                         text-align: center;
-    //                         font-size: 10em;
-    //                         font-weight: 500;
-    //                         color:rgba(255,255,255,1);
-    //
-    //                         font-family: 'Noto Sans KR';
-    //                     }
-    //
-    //                     p {
-    //                         position: relative;
-    //                         margin-top:20px;
-    //                         left:50%;
-    //                         text-align:center;
-    //                         display: inline-block;
-    //
-    //                         padding:0 3em;
-    //
-    //                         color: #fff;
-    //
-    //                         font-size: 1.2em;
-    //
-    //                         width:0;
-    //
-    //
-    //
-    //                         .inner-text {
-    //                             white-space:nowrap;
-    //
-    //                             overflow: hidden;
-    //                         }
-    //
-    //                         &:before, &:after {
-    //                             display: block;
-    //                             position: absolute;
-    //
-    //                             width: 1em;
-    //                             height: 1em;
-    //                             content:"";
-    //
-    //                             background: url("/images/common/pattern-1.png") no-repeat;
-    //                             background-size: cover;
-    //                         }
-    //
-    //                         &:before {
-    //                             left: 30px;
-    //                             top: 0;
-    //                         }
-    //
-    //                         &:after {
-    //                             right: 30px;
-    //                             bottom: 0;
-    //
-    //                             transform: rotate(180deg);
-    //                         }
-    //                     }
-    //
-    //                     .typo-1 {
-    //                         font-size: 1.6em;
-    //                         font-weight: 400;
-    //                         color:$secondary-color;
-    //                     }
-    //
-    //                     .typo-2 {
-    //                         font-size: 5em;
-    //                         line-height: 1.1em;
-    //                         margin-bottom:-.2em;
-    //                     }
-    //                 }
-    //             }
-    //         }
-    //
-    //         img {
-    //
-    //             &.mpc2020-logo {
-    //                 position: absolute;
-    //                 top:7em;
-    //
-    //                 left:50%;
-    //                 margin-left:-60px;
-    //
-    //                 width:120px;
-    //             }
-    //
-    //             &.metlife-logo {
-    //                 position: absolute;
-    //                 bottom:7em;
-    //
-    //                 left:50%;
-    //                 margin-left:-60px;
-    //
-    //                 width:120px;
-    //             }
-    //
-    //         }
-    //     }
-    //     .background {
-    //         position:absolute;
-    //         z-index: 10;
-    //
-    //         bottom:-8em;
-    //         right:0;
-    //     }
-    // }
-}
-
-
-// 모든 화면, 가로, 최대 넓이 1366px 까지
-@media all and (max-width: 1366px) and (orientation: landscape) {
-    .big-img-container {
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left:10%;
-
-                        width:350px;
-                        height:350px;
-
-                        h2 {
-                            font-size: 8.5em;
-                        }
-
-                        p.text-box {
-                            font-size: 1.5em;
-                            margin-top:.5em;
-                        }
-
-                        .typo-1 {
-                        }
-
-                        .typo-2 {
-                        }
-                    }
-                }
-            }
-        }
+    .background {
+      position: absolute;
+      z-index: 10;
+      bottom: 0;
     }
+  }
 }
 
-// 모든 화면, 가로, 최대 넓이 1366px, 최대 높이 800px
-@media all and (max-width:1366px) and (max-height:800px) and (orientation: landscape) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left:10%;
-
-                        width:300px;
-                        height:300px;
-
-                        padding:1em;
-
-                        h2 {
-                            font-size: 6.5em;
-                        }
-
-                        p.text-box {
-                            font-size: 1.4em;
-                            margin-top:0;
-                            padding-top:0;
-                        }
-
-                        .typo-1 {
-                        }
-
-                        .typo-2 {
-                        }
-                    }
-                }
-            }
-        }
+@media all and (max-width: 1366px) {
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 5.5em;
+      margin-top: 25%;
     }
+
+    p.text-box {
+      font-size: 25px;
+      padding-top: .4em;
+    }
+  }
 }
 
-
-// 모든 화면, 세로, 최대 넓이 1366px
 @media all and (max-width: 1366px) and (orientation: portrait) {
-    .big-img-container {
-        &#design-2 {
-            .inner-box {
-
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:45%;
-                        left:10%;
-                        h2 {
-                            font-size: 10em;
-                        }
-
-                        p.text-box {
-                            margin-top:0;
-                            font-size: 1.7em;
-                        }
-
-                        .typo-1 {
-                        }
-
-                        .typo-2 {
-                        }
-                    }
-                }
-            }
-        }
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 5.5em;
+      margin-top: 25%;
     }
+
+    p.text-box {
+      font-size: 25px;
+      padding-top: .4em;
+    }
+  }
 }
 
-// 모든 화면, 가로, 최대 넓이 1024px
-@media all and (max-width: 1024px) and (orientation: landscape) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-                    .visual-box-sentence {
-                        top:53%;
-                        left:10%;
-                        width:270px;
-                        height:270px;
-                        padding: 1em;
-
-                        h2 {
-                            font-size: 6em;
-                        }
-
-                        p.text-box {
-                            margin-top:0;
-                            padding: 0;
-                            font-size: 1.2em;
-                        }
-                    }
-                }
-            }
-        }
+@media all and (max-width: 1024px) {
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 4.5em;
+      margin-top: 20%;
     }
+
+    p.text-box {
+      font-size: 20px;
+      padding-top: .4em;
+    }
+  }
+
+  #centered-video {
+    width: 600px;
+    height: 360px;
+    margin-left: -300px;
+    margin-top: -180px;
+  }
 }
 
-// 모든 화면, 가로, 최대 넓이 1024px, 최대 높이 667px
-@media all and (max-width: 1024px) and (max-height: 667px) and (orientation: landscape) {
-    .big-img-container {
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left:10%;
-
-                        width:30%;
-
-                        padding:1em .6em .6em .6em;
-
-                        h2 {
-                            font-size: 5em;
-                        }
-
-                        p.text-box {
-                            font-size: 1em;
-                            padding-top: 0;
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        right:10%;
-                        left:inherit;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 7em;
-                        right:10%;
-                        left:inherit;
-                    }
-
-                }
-            }
-        }
+@media all and (max-width: 1024px) and (orientation: portrait) {
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 4.5em;
+      margin-top: 25%;
     }
+
+    p.text-box {
+      font-size: 20px;
+      padding-top: .4em;
+    }
+  }
 }
 
-// 모든 화면, 가로, 최대 넓이 1024px, 최대 높이 667px
-@media all and (max-width: 1024px) and (max-height: 450px) and (orientation: landscape) {
-    .big-img-container {
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left:10%;
-
-                        width:200px;
-                        height:200px;
-
-                        h2 {
-
-                        }
-
-                        p.text-box {
-                            font-size: .8em;
-
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        width:100px;
-                        right:13%;
-                    }
-
-                    &.metlife-logo {
-                        width:160px;
-                    }
-                }
-            }
-        }
+@media all and (max-width: 767px) {
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 3.5em;
+      margin-top: 20%;
     }
+
+    p.text-box {
+      font-size: 20px;
+      padding-top: .4em;
+    }
+  }
+
+  #introduce-tab {
+    width: auto;
+    margin: 0 auto;
+
+    &.nav-tabs .nav-link {
+      padding: .7rem 1rem .5rem;
+      font-size: 0.625rem;
+    }
+  }
+
+  #centered-video {
+    width: 370px;
+    height: 222px;
+    margin-left: -185px;
+    margin-top: -111px;
+  }
+
+  .img-text-introduce {
+    margin-left: -150px;
+    width: 300px;
+    top: 5rem;
+  }
 }
 
-// 모든 화면, 세로, 최대 넓이 1024px
-@media all and  (max-width: 1024px) and (orientation: portrait) {
-    .big-img-container {
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left: 10%;
-
-                        width:300px;
-                        height:300px;
-
-                        h2 {
-                            font-size: 6em;
-                        }
-
-                        p.text-box {
-                            padding-top:0;
-                            margin-top:0;
-                            font-size: 1.3em;
-                        }
-                    }
-                }
-
-                img {
-                    &.mpc2020-logo {
-                        top:8em;
-                    }
-                }
-            }
-        }
-    }
-}
-
-// 모든 화면, 가로, 최대 넓이 767px
-@media all and (max-width: 767px) and (orientation: landscape) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-
-
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left:10%;
-
-                        width:30%;
-
-                        padding:1em .6em .6em .6em;
-
-                        h2 {
-                            font-size: 5em;
-                        }
-
-                        p.text-box {
-                            font-size: 1em;
-                            padding-top: 0;
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        right:10%;
-                        left:inherit;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 7em;
-                        right:10%;
-                        left:inherit;
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-
-// 모든 화면, 가로, 최대 넓이 767px, 최대 높이 450px
-@media all and (max-width: 767px) and (max-height: 450px) and (orientation: landscape) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-
-
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left:10%;
-
-                        width:200px;
-                        height:200px;
-
-                        padding:1em .6em .6em .6em;
-
-                        h2 {
-                            font-size: 5em;
-                        }
-
-                        p.text-box {
-                            font-size: .8em;
-                            padding-top: 0;
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        right:10%;
-                        left:inherit;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 7em;
-                        right:10%;
-                        left:inherit;
-                    }
-
-                }
-            }
-        }
-    }
-}
-
-
-// 모든 화면, 세로, 최대 넓이 767px
 @media all and (max-width: 767px) and (orientation: portrait) {
-    #logo-image {
-        width:120px;
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 4.5em;
+      margin-top: 25%;
     }
-    .big-img-container {
 
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:42%;
-                        left: 5%;
-                        width:270px;
-                        height:270px;
-                        padding: 1em;
-
-                        h2 {
-                            font-size: 6em;
-                        }
-
-                        p.text-box {
-                            margin-top:0;
-                            font-size: 1.2em;
-                            padding:0;
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        width:80px;
-                        margin-left:-40px;
-                        top:6em;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 6em;
-                    }
-                }
-            }
-        }
+    p.text-box {
+      font-size: 20px;
+      padding-top: .4em;
     }
+  }
+
+  #introduce-tab {
+    width: auto;
+    margin: 0 auto;
+
+    &.nav-tabs .nav-link {
+      padding: .7rem 1rem .5rem;
+      font-size: 0.625rem;
+    }
+  }
+
+  .img-text-introduce {
+    margin-left: -150px;
+    width: 300px;
+    top: 5rem;
+  }
 }
 
+@media all and (max-width: 420px) {
+  #centered-video {
+    width: 300px;
+    height: 180px;
+    margin-left: -150px;
+    margin-top: -90px;
+  }
 
-// 모든 화면, 세로, 최대 넓이 420px
-@media all and (max-width: 420px) and (orientation: portrait) {
-    #logo-image {
-        width:120px;
+  #contents-tab.nav-tabs .nav-link {
+    font-size: 9px;
+    padding: 1rem 0.5rem 0.8rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 3.5em;
+      margin-top: 25%;
     }
 
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    .visual-box-sentence {
-                        top:50%;
-                        left: 5%;
-                        width:220px;
-                        height:220px;
-                        padding: 1em;
-
-                        h2 {
-                            font-size: 4.2em;
-                        }
-
-                        p.text-box {
-                            margin-top:0;
-                            font-size: 1em;
-                            padding:0;
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        width:80px;
-                        margin-left:-40px;
-                        top:6em;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 6em;
-                    }
-                }
-            }
-        }
+    p.text-box {
+      font-size: 20px;
+      padding-top: .4em;
     }
+  }
 }
 
-// 모든 화면, 가로, 최대 넓이 375px
 @media all and (max-width: 375px) and (orientation: landscape) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-
-
-                .visual-box {
-
-                    div {
-                        &.visual-box-sentence {
-                            top:50%;
-                            left:10%;
-
-                            width:30%;
-
-                            padding:1em .6em .6em .6em;
-
-                            h2 {
-                                font-size: 4em;
-                            }
-
-                            p {
-                                font-size: .8em;
-                                padding-top: 0;
-                            }
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        right:10%;
-                        left:inherit;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 7em;
-                        right:10%;
-                        left:inherit;
-                    }
-
-                }
-            }
-        }
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 2.5em;
+      margin-top: 25%;
     }
+
+    p.text-box {
+      font-size: 15px;
+      padding-top: .4em;
+    }
+  }
 }
 
-
-// 모든 화면, 세로, 최대 넓이 375px
 @media all and (max-width: 375px) and (orientation: portrait) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-                .visual-box {
-
-                    div {
-                        &.visual-box-sentence {
-                            top:50%;
-                            left: 10%;
-
-                            padding:.6em;
-
-                            width:200px;
-                            height:200px;
-
-                            h2 {
-                                font-size: 3.5em;
-                            }
-
-                            p {
-                                margin-top:0;
-                                font-size: .6em;
-                            }
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        width:80px;
-                        margin-left:-40px;
-                        top:6em;
-                    }
-
-                    &.metlife-logo {
-                        bottom : 6em;
-                    }
-                }
-            }
-        }
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 2.5em;
+      margin-top: 35%;
     }
+
+    p.text-box {
+      font-size: 15px;
+      padding-top: .4em;
+    }
+  }
 }
 
-// 모든 화면, 가로, 최대 넓이 375px
 @media all and (max-height: 374px) and (orientation: landscape) {
-    .big-img-container {
-
-        &#design-2 {
-            .inner-box {
-
-
-                .visual-box {
-
-                    div {
-                        &.visual-box-sentence {
-                            top:50%;
-                            left:10%;
-
-                            width:30%;
-
-                            padding:.6em;
-
-                            h2 {
-                                font-size: 3em;
-                            }
-
-                            p {
-                                font-size: .8em;
-                                padding-top: 0;
-                            }
-                        }
-                    }
-                }
-
-                img {
-
-                    &.mpc2020-logo {
-                        top:6em;
-                        right:10%;
-                        width: 80px;
-                        left:inherit;
-                    }
-
-                    &.metlife-logo {
-                        width: 120px;
-                        bottom : 6em;
-                        right:10%;
-                        left:inherit;
-                    }
-
-                }
-            }
-        }
+  .big-img-container#design-2 .inner-box .visual-box {
+    h2 {
+      font-size: 2.5em;
+      margin-top: 20%;
     }
-}
 
-
-
-/*
-**
-** Introduce
-**
-*/
-
-.introduce-section {
-
+    p.text-box {
+      font-size: 15px;
+      padding-top: .4em;
+    }
+  }
 }
 
 .first-section {
-    margin-top:100vh;
+  width: 100%;
+
+  .container-fluid {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .col {
+      padding: 0;
+
+      .img-wrapper {
+        overflow: hidden;
+        position: relative;
+        width: 100%;
+        height: 280px;
+
+        h2 {
+          color: #fff;
+          position: absolute;
+          margin-left: -25%;
+          margin-top: -2.5rem;
+          left: 50%;
+          top: 50%;
+          font-size: 5rem;
+          font-style: italic;
+          z-index: 10;
+        }
+
+        img.first-section-background {
+          position: absolute;
+          min-height: 280px;
+        }
+      }
+    }
+  }
+
+  .container {
+    padding-top: 0;
+    padding-bottom: 0;
+
+    .col {
+      padding: 0;
+    }
+  }
 }
 
 p.description {
-    word-break: break-all;
-    text-align: justify;
+  word-break: break-all;
+  text-align: justify;
 
-    &.word-keep {
-        word-break: keep-all;
-    }
+  &.word-keep {
+    word-break: keep-all;
+  }
 }
 
-.restaurant {
-    .shop-info {
-        margin-bottom:4em;
+.restaurant .shop-info {
+  margin-bottom: 4em;
 
-        h5 {
-        }
+  h5 {
+    color: #0090da;
+    padding: 15px 15px 0 15px;
+  }
 
-        p {
-            &.shop-sub-info {
-                font-size: 0.9em;
-                margin-bottom: 0.5em;
-            }
+  p {
+    padding: 0 15px;
 
-            &.shop-description {
-                word-break: break-all;
-                text-align: justify;
-                margin-bottom:1em;
-            }
-        }
-
-        .dotted_info {
-            font-size: .8em;
-        }
+    &.shop-sub-info {
+      font-size: 0.9em;
+      margin-bottom: 0.5em;
     }
+
+    &.shop-description {
+      word-break: break-all;
+      text-align: justify;
+      margin-bottom: 1em;
+      padding: 0 15px;
+    }
+  }
+
+  .dotted_info {
+    font-size: .8em;
+    padding: 0 15px 15px 15px;
+  }
 }
 
 .country-info {
-    .img-block {
-        width::100%;
-        max-width:250px;
-        height:auto;
-        max-height: 250px;
+  .img-block {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    max-height: 250px;
+    margin: 0 auto 3em auto;
+  }
 
-        border: 10px solid $third-color;
-        margin:0 auto 3em auto;
-    }
+  h5 {
+    color: #0090da;
+  }
 
-    .description {
-        margin-bottom:4em;
-    }
+  .description {
+    margin-bottom: 4em;
+  }
 }
 
-.recommended-food {
+.recommended-food .container .col {
+  margin-bottom: 2em;
 
-    .col {
-        margin-bottom:2em;
-        .description {
-        }
-    }
+  h5 {
+    color: #0090da;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 
+  .description {
+    padding: 0 15px 15px 15px;
+  }
+}
+
+.bordered-wrapper {
+  border: 1px solid #e1e1e1;
+  height: 100%;
 }
 
 .info-grid {
+  .col {
+    margin-bottom: 2em;
+  }
 
-    .col {
-        margin-bottom:2em;
-        img {
+  .item {
+    display: table-cell;
+    width: 80px;
+    vertical-align: middle;
+  }
 
-        }
+  .description {
+    display: table-cell;
+    vertical-align: middle;
+    text-align: left;
+    padding-left: 1.5rem;
+
+    h5 {
+      color: #0061a0;
     }
-    .item {
-        width:100px;
-        height:100px;
-        margin-bottom:1.2em;
-    }
-    .description {
-        text-align: center;
-    }
+  }
 }
 
-
-.tour-information {
-    .description {
-        margin-bottom: 2em;
-    }
+.tour-information .description {
+  margin-bottom: 2em;
 }
-
-/*
-**
-** Image box
-**
-*/
 
 .img-container {
-    top: 0;
-    position: fixed;
-    height:100%;
-    width:100%;
+  top: 0;
+  position: fixed;
+  height: 100%;
+  width: 100%;
 
-    & > * {
-        height:100%;
+  > * {
+    height: 100%;
 
-        .row {
-            height:100%;
-            .col {
-                height:100%;
+    .row {
+      height: 100%;
 
-            }
-        }
+      .col {
+        height: 100%;
+      }
+    }
+  }
+
+  .inner-box {
+    position: absolute;
+    padding: 0;
+    height: 15rem;
+    overflow: hidden;
+
+    h2.page-title {
+      width: 100%;
+      color: #fff;
+      font-size: 2.4em;
+      font-weight: 100;
+      text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+      position: absolute;
+      top: 30%;
+      z-index: 12;
+      text-align: center;
+
+      em.keyword {
+        font-size: 1.5em;
+        font-weight: 400;
+      }
     }
 
-    .inner-box {
-        position: absolute;
-        padding: 0;
-        height:15rem;
-        overflow:hidden;
-
-        h2 {
-            &.page-title {
-                width:100%;
-                color:#fff;
-                font-size: 2.4em;
-                font-weight:100;
-                text-shadow: 5px 5px 5px rgba(0,0,0,.5);
-                position: absolute;
-                top:30%;
-                z-index: 12;
-                text-align: center;
-
-                em.keyword {
-                    font-size: 1.5em;
-                    font-weight: 400;
-                }
-            }
-        }
-
-        .background-text {
-            width: 100%;
-            text-align: center;
-            position: absolute;
-            top:35%;
-            font-size: 10em;
-            letter-spacing: .2em;
-            z-index: 11;
-            color:rgba(255,255,255,.4);
-        }
-
-        img {
-            position: relative;
-            width:100%;
-            z-index: 10;
-            top:0;
-            right:0;
-        }
+    .background-text {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 35%;
+      font-size: 10em;
+      letter-spacing: .2em;
+      z-index: 11;
+      color: rgba(255, 255, 255, 0.4);
     }
+
+    img {
+      position: relative;
+      width: 100%;
+      z-index: 10;
+      top: 0;
+      right: 0;
+    }
+  }
 }
-
 
 .img-white-line-outer-glow {
-    border:10px solid #fff;
-    box-shadow: 0 0 5px rgba(0,0,0,.3);
+  border: 10px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
 }
 
-// Medium devices (tablets, 768px and up)
 @media (max-width: 767.98px) {
-    .img-container {
-        .inner-box {
-            height:10rem;
+  .img-container .inner-box {
+    height: 10rem;
 
-            h2 {
-                &.page-title {
-                    top:30%;
-                    font-size: 1.8em;
-                }
-            }
-
-            .background-text {
-                width: 100%;
-                text-align: center;
-                position: absolute;
-                top:40%;
-                font-size: 5em;
-                letter-spacing: .2em;
-                z-index: 11;
-                color:rgba(255,255,255,.4);
-            }
-
-            img {
-                bottom:inherit;
-            }
-        }
+    h2.page-title {
+      top: 30%;
+      font-size: 1.8em;
     }
-}
 
+    .background-text {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 40%;
+      font-size: 5em;
+      letter-spacing: .2em;
+      z-index: 11;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    img {
+      bottom: inherit;
+    }
+  }
+
+  #contents-tab.nav-tabs .nav-link {
+    font-size: 12px;
+    padding: 1.2rem 0.5rem 1rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
+}
 
 @media (max-width: 375px) {
-    .img-container {
-        .inner-box {
-            h2.page-title {
-                top:30%;
-                font-size: 1.4em;
-            }
-
-            .background-text {
-                width: 100%;
-                text-align: center;
-                position: absolute;
-                top:35%;
-                font-size: 3.3em;
-                letter-spacing: .2em;
-                z-index: 11;
-                color:rgba(255,255,255,.4);
-            }
-
-            img {
-                bottom:inherit;
-            }
-        }
+  .img-container .inner-box {
+    h2.page-title {
+      top: 30%;
+      font-size: 1.4em;
     }
+
+    .background-text {
+      width: 100%;
+      text-align: center;
+      position: absolute;
+      top: 35%;
+      font-size: 3.3em;
+      letter-spacing: .2em;
+      z-index: 11;
+      color: rgba(255, 255, 255, 0.4);
+    }
+
+    img {
+      bottom: inherit;
+    }
+  }
+
+  #contents-tab.nav-tabs .nav-link {
+    font-size: 9px;
+    padding: 0.9rem 0.3rem 0.7rem;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+  }
 }
 
-/*
-**
-** Titles
-**
-*/
+.sub-title-wrapper {
+  text-align: center;
+  margin-bottom: 1em;
 
-h3.sub-title {
-    position:relative;
+  &:before {
+    content: "";
+    width: 100%;
+    height: 1px;
+    position: absolute;
+    top: 45px;
+    left: 0;
+    border-top: 2px solid #666;
+  }
+
+  h3.sub-title {
+    color: #333;
+    font-size: 2rem;
+    position: relative;
     display: inline-block;
-    padding-top:.7em;
-    margin-bottom:1em;
-
-    &:before {
-        content:"";
-        width:100%;
-        height:.2em;
-        background:$third-color;
-        position:absolute;
-        top: 0;
-        left: 0;
-    }
+    padding: 1em 1.5rem;
+    background: #fff;
+  }
 }
-
-
-/*
-**
-** Tag set
-**
-*/
 
 ul {
-    margin:0;
-    padding:0;
+  margin: 0;
+  padding: 0;
 
-    li {
-        margin:0;
-        padding:0;
-        list-style: none;
-    }
+  li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
 }
 
-img {width:100%;}
-
-/*
-**
-** Default set
-**
-*/
-
-$default-gutter:2em;
+img {
+  width: 100%;
+}
 
 .container {
-    padding-top:5rem;
-    padding-bottom:5rem;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 
-    .col {
-        padding-left:$default-gutter;
-        padding-right:$default-gutter;
-    }
+  .col {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
 }
 
-.tab-container {
+.tab-container ul {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
 
-    ul {
-        display: flex;
-        flex-flow: row wrap;
-        justify-content: flex-end;
+  li {
+    flex: 1;
+    text-align: center;
+    padding: 2rem;
+    color: #000;
+    font-size: 1.2rem;
 
-        li {
-            flex: 1;
-            text-align: center;
-            padding:2rem;
-
-            color:#000;
-            font-size: 1.2rem;
-
-            &:hover {
-                cursor:pointer;
-            }
-
-            &.active {
-
-            }
-        }
+    &:hover {
+      cursor: pointer;
     }
+  }
 }
 
 .img-rounded {
-    border-radius: 50%;
-    width:100%;
+  border-radius: 50%;
+  width: 100%;
 }
 
 .top-line-1px {
-    border-top:1px solid $primary-color;
+  border-top: 1px solid #0090da;
 }
 
+.time-table {
+  width: 100%;
 
-/*
-**
-** Footer
-**
-*/
+  tr:nth-child(even) {
+    background-color: #f5f5f5;
+  }
+
+  th, td {
+    padding: 0.7rem 0.5rem 0.5rem;
+  }
+
+  th {
+    background-color: #0061a0;
+    color: #fff;
+    text-align: center;
+  }
+
+  td {
+    border-color: #222;
+
+    &:first-child {
+      background-color: #0090da;
+      color: #fff;
+      text-align: center;
+      min-width: 60px;
+    }
+
+    &:nth-child(2), &:nth-child(3), &:last-child {
+      width: 30%;
+    }
+  }
+}
+
+.responsive-x {
+  width: 100%;
+  overflow-x: scroll;
+}
+
+.tour-summary {
+  font-size: 1.3rem;
+  margin-bottom: 4rem;
+
+  li {
+    margin-bottom: 0.6rem;
+    padding-left: 51px;
+
+    span {
+      Margin-left: -51px;
+    }
+  }
+}
+
+.flight-info {
+  font-size: 1.5rem;
+
+  .date {
+    background: #01419a;
+    border-radius: 10px;
+    font-size: 2rem;
+    color: #fff;
+    margin-bottom: 1rem;
+    padding: .8rem .5rem .5rem;
+  }
+
+  .flight-id {
+    color: #0090da;
+    margin-bottom: .5rem;
+  }
+}
 
 footer {
-    background: #000;
-    margin:0;
-    padding:1rem;
+  background: #000;
+  margin: 0;
+  padding: 1rem;
+  position: relative;
+  z-index: 500;
 
-    position: relative;
-    z-index: 500;
+  &.main {
+    width: 100%;
+    margin-top: -70px;
+  }
 
-    &.main {
-        // position: absolute;
-        width: 100%;
-        // top: 100vh;
-        margin-top:-70px;
+  .metlife-logo {
+    width: 149px;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0;
+      padding: 0;
+      font-size: .8rem;
+      color: #fff;
+      list-style: none;
     }
-
-    ul {
-        margin:0;
-        padding:0;
-
-        li {
-            margin:0;
-            padding:0;
-            font-size: .8rem;
-            color:#fff;
-
-            list-style: none;
-        }
-    }
+  }
 }
 
-/*
-**
-** Purpose : 공사중 페이지
-**
-**
-**
-*/
-
 #construction-page {
-    height:100vh;
+  height: 100vh;
 
-    #construction-box {
+  #construction-box .text-construction {
+    margin-top: 50%;
+  }
+}
 
-        .text-construction {
-            margin-top:50%;
-        }
-    }
+#scroll-fix-tab {
+    background: $secondary-color;
 }

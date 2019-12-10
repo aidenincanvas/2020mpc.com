@@ -13,7 +13,7 @@
                     <div class="background-text">
                         Singapore
                     </div>
-                    <img src="/images/introduce/lady-in-park.jpg" class="background">
+                    <img src="/images/location_guide/lady-in-park.jpg" class="background">
                 </div>
             </div>
         </div>
@@ -35,16 +35,16 @@
                     <div class="col col-12">
                         <ul class="nav nav-tabs" id="contents-tab" role="tablist">
                           <li class="nav-item">
-                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">싱가포르 소개</a>
+                            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">여행일정</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="tour-map-tab" data-toggle="tab" href="#tour-map" role="tab" aria-controls="profile" aria-selected="false">세부지역안내</a>
+                            <a class="nav-link" id="tour-map-tab" data-toggle="tab" href="#tour-map" role="tab" aria-controls="profile" aria-selected="false">항공편안내</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="prepare-tab" data-toggle="tab" href="#prepare" role="tab" aria-controls="contact" aria-selected="false">싱가폴 필수 팁</a>
+                            <a class="nav-link" id="prepare-tab" data-toggle="tab" href="#prepare" role="tab" aria-controls="contact" aria-selected="false">추천관광안내</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="restaurant-tab" data-toggle="tab" href="#restaurant" role="tab" aria-controls="contact" aria-selected="false">추천 현지맛집</a>
+                            <a class="nav-link" id="restaurant-tab" data-toggle="tab" href="#restaurant" role="tab" aria-controls="contact" aria-selected="false">회사제공프로그램</a>
                           </li>
                         </ul>
                     </div>
@@ -52,6 +52,7 @@
             </div>
         </div>
     </section>
+    <!-- 싱가포르 관광지 정보안내 -->
     <section class="introduce-section second-section">
         <div class="container">
             <div class="row">
@@ -739,7 +740,7 @@
 
 
 $(document).ready(function(){
-    $('#menu-introduce').addClass('active');
+    $('#menu-location-guide').addClass('active');
 
     var navH = $("nav").outerHeight();
     var first_section_H = $(".first-section").outerHeight();
@@ -754,38 +755,6 @@ $(document).ready(function(){
 
 
 imgRatioController();
-
-var hitting_point = $("#scroll-fix-tab").offset().top;
-
-var navH = $("nav").outerHeight();
-
-$(window).scroll(function(){
-    var scrolled = $(window).scrollTop();
-
-    if(hitting_point < scrolled){
-        $("#scroll-fix-tab").css({
-            "position":"fixed",
-            "top" : navH + "px",
-            "width" : 100 + "%"
-        });
-
-        $(".second-section").css(
-            "margin-top", navH + 73 + "px"
-        );
-    } else {
-        $("#scroll-fix-tab").css({
-            "position":"relative",
-            "top" : 0 + "px",
-            "width" : 100 + "%"
-        });
-
-        $(".second-section").css(
-            "margin-top", navH + "px"
-        );
-    }
-
-
-});
 
 $(window).resize(function(){
     imgRatioController();

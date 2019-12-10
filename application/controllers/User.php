@@ -57,7 +57,7 @@ class User extends CI_Controller {
         }
     }
 
-    public function location_guide()
+    public function schedule()
     {
         if($this->is_logged == 'NO')
         {
@@ -67,8 +67,8 @@ class User extends CI_Controller {
         {
           $data['is_logged'] = $this->is_logged;
           $data['user_id']  = $this->user_id;
-          $data['pathname'] = 'location_guide';
-          $this->load->view('user/location_guide',$data);
+          $data['pathname'] = 'schedule';
+          $this->load->view('user/schedule',$data);
         }
     }
 
