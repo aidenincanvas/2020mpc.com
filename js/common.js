@@ -9,6 +9,34 @@ $(document).ready(function(){
         $('html, body').animate( { scrollTop : 0 }, 400 );
     });
 
+    var img_ratio = 0.75;
+
+    $(".img-wrap").css({
+        "overflow":"hidden",
+        "width": 100 + "%",
+        "height": 100 + "%",
+        "max-height" : 300 + "px"
+    });
+
+    $(".img-wrap img").each(function(){
+        var imgH; // 창의 높이
+        var imgW; // 창의 넓이
+
+        imgH = $(".img-wrap img").outerHeight();
+        imgW = $(".img-wrap img").outerWidth();
+
+        if((imgH/imgW) > img_ratio){
+            $(".img-wrap img").css({
+                "width" : 100 + "%",
+                "height" : "auto"
+            });
+        } else {
+            $(".img-wrap img").css({
+                "width" : "auto",
+                "height" : 100 + "%"
+            });
+        }
+    });
 });
 
 

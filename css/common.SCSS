@@ -36,9 +36,9 @@ p {
   margin: 0;
 }
 
-$primary-color:#0090da;
-$secondary-color:#0061a0;
-$third-color:#a4d046;
+$primary-color:rgb(0,144,218);
+$secondary-color:rgb(0, 97, 160);
+$third-color:rgb(164, 208, 70);
 
 .font-color-primary {
   color: $primary-color;
@@ -86,6 +86,11 @@ $third-color:#a4d046;
   }
 }
 
+#scroll-fix-tab {
+    background: rgba(0,0,0,.5);
+}
+
+
 #contents-tab {
   width: 100%;
   bottom: 0;
@@ -105,13 +110,15 @@ $third-color:#a4d046;
 
     .nav-link {
         color: #fff;
-        background-color: #0090da;
+        background:none ;
 
       font-weight: 400;
       font-size: 20px;
       text-align: center;
 
       padding: 1rem 1rem 0.8rem;
+
+      border-radius:0;
 
       &:hover {
         color: #0090da;
@@ -124,6 +131,13 @@ $third-color:#a4d046;
       }
     }
   }
+}
+
+@media (max-width: 992px) {
+    #contents-tab.nav-tabs .nav-link {
+      font-size: 16px;
+      padding: 1rem 0.3rem 0.8rem;
+    }
 }
 
 #login-form {
@@ -299,6 +313,10 @@ $third-color:#a4d046;
       font-size: 0.625rem;
     }
   }
+  #contents-tab.nav-tabs .nav-link {
+    font-size: 8px;
+    padding: 1rem 0.3rem 0.8rem;
+  }
 
   #centered-video {
     width: 370px;
@@ -355,8 +373,6 @@ $third-color:#a4d046;
   #contents-tab.nav-tabs .nav-link {
     font-size: 9px;
     padding: 1rem 0.5rem 0.8rem;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
   }
 
   .big-img-container#design-2 .inner-box .visual-box {
@@ -469,12 +485,67 @@ p.description {
   }
 }
 
-.restaurant .shop-info {
+.landmark {
+    .row {
+        margin-bottom: 5rem;
+    }
+
+    .shop-info {
+     margin-bottom: 0;
+
+
+
+     h5 {
+       color: #0090da;
+       padding: 15px 15px 0 15px;
+     }
+
+     span.eng {
+         padding-left: 15px;
+         margin-bottom:15px;
+         display:block;
+     }
+
+     p {
+       padding: 0 15px;
+
+       &.shop-sub-info {
+         font-size: 0.9em;
+         margin-bottom: 0.5em;
+       }
+
+       &.shop-description {
+         word-break: break-all;
+         text-align: justify;
+         margin-bottom: 1em;
+         padding: 0 15px;
+       }
+     }
+
+     .dotted_info {
+       font-size: .8em;
+       padding: 0 15px 15px 15px;
+
+       li {
+           padding-left:22px;
+           position: relative;
+
+           i {
+               margin-left: -22px;
+           }
+       }
+     }
+ }
+}
+
+
+.restaurent .shop-info {
   margin-bottom: 4em;
 
   h5 {
     color: #0090da;
     padding: 15px 15px 0 15px;
+    margin-bottom: 0;
   }
 
   p {
@@ -500,21 +571,53 @@ p.description {
 }
 
 .country-info {
+
+    .row {
+        border-bottom: 1px solid rgb(200,200,200);
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
   .img-block {
     width: 100%;
     max-width: 250px;
     height: auto;
     max-height: 250px;
-    margin: 0 auto 3em auto;
+    margin: 0 auto;
   }
 
   h5 {
-    color: #0090da;
+      font-size: 2rem;
+    color:$primary-color;
+  }
+
+  span {
+      font-size: 1.4rem;
+      color:rgb(150,150,150);
   }
 
   .description {
-    margin-bottom: 4em;
+
   }
+}
+.img-1 {
+     margin-bottom:0;
+}
+
+@media (max-width: 992px) {
+    .img-1 {
+         margin-bottom:2rem;
+    }
+
+    .country-info {
+        .description {
+            margin-top: 2rem;
+        }
+    }
+
+    .landmark .shop-info {
+      margin-bottom: 0;
+    }
 }
 
 .recommended-food .container .col {
@@ -658,8 +761,6 @@ p.description {
   #contents-tab.nav-tabs .nav-link {
     font-size: 12px;
     padding: 1.2rem 0.5rem 1rem;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
   }
 }
 
@@ -689,8 +790,6 @@ p.description {
   #contents-tab.nav-tabs .nav-link {
     font-size: 9px;
     padding: 0.9rem 0.3rem 0.7rem;
-    border-bottom-left-radius: 6px;
-    border-bottom-right-radius: 6px;
   }
 }
 
@@ -878,8 +977,4 @@ footer {
   #construction-box .text-construction {
     margin-top: 50%;
   }
-}
-
-#scroll-fix-tab {
-    background: $secondary-color;
 }

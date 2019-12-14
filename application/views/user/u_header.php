@@ -50,7 +50,8 @@
             <a id="menu-introduce" class="nav-link" href="/introduce">여행지안내</a>
           </li>
           <li class="nav-item">
-            <a  id="menu-location-guide" class="nav-link" href="/schedule">일정안내</a>
+            <a class="nav-link coming-soon" href="#">일정안내</a>
+            <!-- <a  id="menu-location-guide" class="nav-link" href="/schedule">일정안내</a> -->
           </li>
           <li class="nav-item">
             <a class="nav-link coming-soon" href="#">For Gold</a>
