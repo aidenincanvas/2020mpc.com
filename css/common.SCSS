@@ -52,6 +52,10 @@ $third-color:rgb(164, 208, 70);
   color: $third-color;
 }
 
+.font-color-black {
+  color: #333;
+}
+
 .font-color-red {
   color: red;
 }
@@ -86,8 +90,28 @@ $third-color:rgb(164, 208, 70);
   }
 }
 
+
+
 #scroll-fix-tab {
     background: rgba(0,0,0,.5);
+}
+
+#scroll-fixed-tab {
+    padding-top:10px;
+    padding-bottom:10px;
+
+    .btn {
+        &.btn-no-radius {
+            border-radius: 0;
+        }
+
+        &.scroll-to-landmark {
+            // border:1px solid #333;
+            color:#333;
+            padding-top:3px;
+            padding-bottom:3px;
+        }
+    }
 }
 
 
@@ -126,7 +150,7 @@ $third-color:rgb(164, 208, 70);
       }
 
       &.active {
-        color: #0090da;
+        color: #333;
         background-color: #fff;
       }
     }
@@ -137,6 +161,16 @@ $third-color:rgb(164, 208, 70);
     #contents-tab.nav-tabs .nav-link {
       font-size: 16px;
       padding: 1rem 0.3rem 0.8rem;
+    }
+
+    .btn {
+        &.btn-no-radius {
+            border-radius: 0;
+        }
+
+        &.scroll-to-landmark {
+            font-size: 16px;
+        }
     }
 }
 
@@ -316,6 +350,13 @@ $third-color:rgb(164, 208, 70);
   #contents-tab.nav-tabs .nav-link {
     font-size: 8px;
     padding: 1rem 0.3rem 0.8rem;
+  }
+
+  .btn {
+
+      &.scroll-to-landmark {
+          font-size: 8px;
+      }
   }
 
   #centered-video {
@@ -539,7 +580,7 @@ p.description {
 }
 
 
-.restaurent .shop-info {
+.restaurant .shop-info {
   margin-bottom: 4em;
 
   h5 {
@@ -576,6 +617,10 @@ p.description {
         border-bottom: 1px solid rgb(200,200,200);
         padding-top: 4rem;
         padding-bottom: 4rem;
+
+        &:last-child {
+            border-bottom: 0;
+        }
     }
 
   .img-block {
@@ -588,7 +633,7 @@ p.description {
 
   h5 {
       font-size: 2rem;
-    color:$primary-color;
+    color:#333;
   }
 
   span {
@@ -835,11 +880,6 @@ img {
 .container {
   padding-top: 2rem;
   padding-bottom: 2rem;
-
-  .col {
-    padding-left: 15px;
-    padding-right: 15px;
-  }
 }
 
 .tab-container ul {
@@ -908,7 +948,7 @@ img {
 }
 
 .tour-summary {
-  font-size: 1.3rem;
+  font-size: 1.15rem;
   margin-bottom: 4rem;
 
   li {

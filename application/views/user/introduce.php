@@ -10,7 +10,7 @@
                 <div class="col col-12">
                     <div class="img-wrapper" style="position:relative; overflow:hidden; width:100%; height:280px;">
                         <img src="/images/introduce/img-text-first-section.jpg" class="img-text-introduce">
-                        <img src="/images/introduce/img-slide-singapore.jpg" class="first-section-background" style="min-width:1920px;">
+                        <img src="/images/introduce/img-slide-singapore.jpg" class="first-section-background" style="min-width:1920px; margin-top:-60px;">
                     </div>
                 </div>
             </div>
@@ -30,9 +30,33 @@
                             <a class="nav-link" id="prepare-tab" data-toggle="tab" href="#prepare" role="tab" aria-controls="contact" aria-selected="false">싱가포르 필수 팁</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="restaurant-tab" data-toggle="tab" href="#restaurant" role="tab" aria-controls="contact" aria-selected="false">추천 현지맛집</a>
+                            <a class="nav-link" id="restaurant-tab" data-toggle="tab" href="#restaurant" role="tab" aria-controls="contact" aria-selected="false">센토사섬 즐기기<!--추천 현지맛집--></a>
                           </li>
                         </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid" style=" background:#fff;">
+                <div id="scroll-fixed-tab" class="container" style="display:none;">
+                    <div class="row d-flex no-gutters">
+                        <div class="col col-6 col-sm-4 col-lg-2">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1">오챠드 로드</button>
+                        </div>
+                        <div class="col col-6 col-sm-4 col-lg-2">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2">마리나베이 시티홀</button>
+                        </div>
+                        <div class="col col-6 col-sm-4 col-lg-2">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3">리버 사이드</button>
+                        </div>
+                        <div class="col col-6 col-sm-4 col-lg-2">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4">아랍스트리트, 부기스</button>
+                        </div>
+                        <div class="col col-6 col-sm-4 col-lg-2">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5">차이나타운</button>
+                        </div>
+                        <div class="col col-6 col-sm-4 col-lg-2">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6">센토사, 하버 프론트</button>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -88,27 +112,38 @@
 </body>
 <script type="text/javascript">
 
+var hitting_point = $("#scroll-fix-tab").offset().top;
+
+var navH = $("nav").outerHeight();
+
+var fixed_tab_H = $("#scroll-fix-tab").outerHeight();
+
+var first_section_H = $(".first-section").outerHeight();
 
 $(document).ready(function(){
     $('#menu-introduce').addClass('active');
-
-    var navH = $("nav").outerHeight();
-    var first_section_H = $(".first-section").outerHeight();
 
     var margin_top_second = navH + first_section_H;
 
     $('.first-section').css('top',navH + "px");
 
-    $('.second-section').css('margin-top', navH + "px");
+    $('.second-section').css('margin-top', navH + fixed_tab_H + "px");
+
+
+    $("#scroll-fix-tab .nav-link").on("click", function(){
+        var _thisId = $(this).attr("id");
+
+        if(_thisId == "tour-map-tab"){
+            $("#scroll-fixed-tab").show();
+        } else {
+            $("#scroll-fixed-tab").hide();
+        }
+    });
 });
 
 
 
 imgRatioController();
-
-var hitting_point = $("#scroll-fix-tab").offset().top;
-
-var navH = $("nav").outerHeight();
 
 $(window).scroll(function(){
     var scrolled = $(window).scrollTop();
@@ -121,7 +156,7 @@ $(window).scroll(function(){
         });
 
         $(".second-section").css(
-            "margin-top", navH + 73 + "px"
+            "margin-top", navH + 73 + fixed_tab_H + "px"
         );
     } else {
         $("#scroll-fix-tab").css({

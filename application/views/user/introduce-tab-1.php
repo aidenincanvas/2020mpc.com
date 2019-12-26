@@ -7,7 +7,7 @@
                       <img src="/images/introduce/introduce-section-2-1.jpg" class="rounded img-1" style="width:100%;">
                   </div>
                   <div class="col col-12 col-lg-7 align-self-end">
-                      <div class="font-color-primary" style="font-size:2.6rem;">
+                      <div class="font-color-black" style="font-size:2.6rem;">
                           싱가포르
                       </div>
                       <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">맛집과 쇼핑의 천국, 동남아시아의 도시국가</h4>

@@ -37,6 +37,16 @@ $(document).ready(function(){
             });
         }
     });
+
+    $(".scroll-to-landmark").on("click", function(){
+
+        var _this = $(this).data("scroll-id");
+
+        var target = $("#" + _this).offset().top;
+
+        $("html, body").scrollTop(target - 200);
+    });
+
 });
 
 

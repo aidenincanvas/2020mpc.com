@@ -60,14 +60,14 @@
                           <section class="introduce-section">
                               <div class="container">
                                   <div class="row d-flex justify-content-center">
-                                      <div class="col col-12 col-xs-12 col-sm-12 col-md-8">
+                                      <div class="col col-8">
                                           <div class="sub-title-wrapper">
                                               <h3 class="sub-title">Only 2020 TOP MPC</h3>
                                           </div>
                                       </div>
                                   </div>
                                   <div class="row d-flex justify-content-center">
-                                      <div class="col col-12 col-xs-12 col-sm-12 col-md-8">
+                                      <div class="col col-12 col-md-6">
                                           <ul class="tour-summary">
                                               <li>
                                                   <span>일정</span> : 2020년 5월 2일(토) ~ 5월 9일(토) / 6박 8일

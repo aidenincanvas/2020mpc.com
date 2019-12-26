@@ -9,39 +9,61 @@
                 </div>
             </div>
 
-            <div class="row d-flex">
-                <div class="col col-6">
-                    <button type="button" class="btn">오챠드 로드</button>
+            <!-- <div class="row d-flex no-gutters" style="margin-top:80px;">
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1">오챠드 로드</button>
                 </div>
-                <div class="col col-6">
-                    <button type="button" class="btn">마리나베이 시티홀</button>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2">마리나베이 시티홀</button>
                 </div>
-                <div class="col col-6">
-                    <button type="button" class="btn">리버 사이드</button>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3">리버 사이드</button>
                 </div>
-                <div class="col col-6">
-                    <button type="button" class="btn">아랍스트리트, 부기스</button>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4">아랍스트리트, 부기스</button>
                 </div>
-                <div class="col col-6">
-                    <button type="button" class="btn">차이나타운</button>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5">차이나타운</button>
                 </div>
-                <div class="col col-6">
-                    <button type="button" class="btn">센토사, 하버 프론트</button>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6">센토사, 하버 프론트</button>
                 </div>
-            </div>
+            </div> -->
+
+            <!-- <div class="row d-flex no-gutters" style="margin-top:80px;">
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1"><i class="far fa-fw fa-arrow-alt-circle-down"></i>오챠드 로드</button>
+                </div>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2"><i class="far fa-fw fa-arrow-alt-circle-down"></i>마리나베이 시티홀</button>
+                </div>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3"><i class="far fa-fw fa-arrow-alt-circle-down"></i>리버 사이드</button>
+                </div>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4"><i class="far fa-fw fa-arrow-alt-circle-down"></i>아랍스트리트, 부기스</button>
+                </div>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5"><i class="far fa-fw fa-arrow-alt-circle-down"></i>차이나타운</button>
+                </div>
+                <div class="col col-6 col-md-4">
+                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6"><i class="far fa-fw fa-arrow-alt-circle-down"></i>센토사, 하버 프론트</button>
+                </div>
+            </div> -->
+
         </div>
     </section>
 
     <section class="introduce-section tour-information" style="margin-top:2rem;">
 
-        <div class="container landmark">
+        <div id="landmark-1" class="container landmark">
             <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
                 <div class="col col-12 col-xl-8">
                     <img src="/images/location_guide/img-2-orchard.jpg" class="mb-3 img-1">
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
-                    <div class="font-color-primary" style="font-size:2.6rem;">
-                        오차드 로드 <span style="font-size:1.2rem; color:#666;">Orchard Road</span>
+                    <div style="font-size:2.6rem;">
+                        오차드 로드<!--  <span style="font-size:1.2rem; color:#666;">Orchard Road</span> -->
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">아시아에서 가장 유명한 쇼핑거리</h4>
                     <p class="description">
@@ -290,14 +312,14 @@
 
 
 
-        <div class="container landmark">
+        <div id="landmark-2" class="container landmark">
 
             <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
                 <div class="col col-12 col-xl-8">
                     <img src="/images/introduce/img-marina.jpg" class="mb-3 img-1">
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
-                    <div class="font-color-primary" style="font-size:2.6rem;">
+                    <div style="font-size:2.6rem;">
                         마리나 베이
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">시티홀, 현대적인 럭셔리 라이프</h4>
@@ -567,13 +589,13 @@
 
 
 
-        <div class="container landmark">
+        <div id="landmark-3" class="container landmark">
             <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
                 <div class="col col-12 col-xl-8">
                     <img src="/images/introduce/img-riverside.jpg" class="mb-3 img-1">
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
-                    <div class="font-color-primary" style="font-size:2.6rem;">
+                    <div style="font-size:2.6rem;">
                         리버사이드
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">싱가포르의 과거를 만날 수 있는 곳</h4>
@@ -782,13 +804,13 @@
 
 
 
-        <div class="container landmark">
+        <div id="landmark-4" class="container landmark">
             <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
                 <div class="col col-12 col-xl-8">
                     <img src="/images/introduce/img-arab-st-2.jpg" class="mb-3 img-1">
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
-                    <div class="font-color-primary" style="font-size:2.6rem;">
+                    <div style="font-size:2.6rem;">
                         아랍스트리트, 부기스,
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">싱가포르 안 작은 아랍</h4>
@@ -1034,13 +1056,13 @@
 
 
 
-        <div class="container landmark">
+        <div id="landmark-5" class="container landmark">
             <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
                 <div class="col col-12 col-xl-8">
                     <img src="/images/location_guide/img-2-orchard.jpg" class="mb-3 img-1">
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
-                    <div class="font-color-primary" style="font-size:2.6rem;">
+                    <div style="font-size:2.6rem;">
                         차이나타운
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">다양한 조명과 음악, 과거와 현재의 활기가 가득한 곳</h4>
@@ -1298,13 +1320,14 @@
         </div>
 
 
-        <div class="container landmark">
+
+        <div id="landmark-6" class="container landmark">
             <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
                 <div class="col col-12 col-xl-8">
                     <img src="/images/location_guide/img-2-orchard.jpg" class="mb-3 img-1">
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
-                    <div class="font-color-primary" style="font-size:2.6rem;">
+                    <div style="font-size:2.6rem;">
                         센토사, 하버프론트,
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">자연과 휴양이 공존하는 곳</h4>
