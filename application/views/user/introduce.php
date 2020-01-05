@@ -134,7 +134,9 @@ $(document).ready(function(){
         var _thisId = $(this).attr("id");
 
         if(_thisId == "tour-map-tab"){
-            $("#scroll-fixed-tab").show();
+            $("#scroll-fixed-tab").show(function(){
+                img_size_set();
+            });
         } else {
             $("#scroll-fixed-tab").hide();
         }

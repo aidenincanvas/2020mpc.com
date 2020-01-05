@@ -9,33 +9,10 @@ $(document).ready(function(){
         $('html, body').animate( { scrollTop : 0 }, 400 );
     });
 
-    var img_ratio = 0.75;
-
     $(".img-wrap").css({
         "overflow":"hidden",
         "width": 100 + "%",
-        "height": 100 + "%",
         "max-height" : 300 + "px"
-    });
-
-    $(".img-wrap img").each(function(){
-        var imgH; // 창의 높이
-        var imgW; // 창의 넓이
-
-        imgH = $(".img-wrap img").outerHeight();
-        imgW = $(".img-wrap img").outerWidth();
-
-        if((imgH/imgW) > img_ratio){
-            $(".img-wrap img").css({
-                "width" : 100 + "%",
-                "height" : "auto"
-            });
-        } else {
-            $(".img-wrap img").css({
-                "width" : "auto",
-                "height" : 100 + "%"
-            });
-        }
     });
 
     $(".scroll-to-landmark").on("click", function(){
@@ -48,6 +25,43 @@ $(document).ready(function(){
     });
 
 });
+
+function img_size_set () {
+
+    imgWrapW = $(".img-wrap").outerWidth();
+    var imgWrapH = imgWrapW * 0.75;
+
+    console.log(imgWrapH + "/" + imgWrapW);
+
+    $(".img-wrap img").each(function(){
+        var imgH; // 창의 높이
+        var imgW; // 창의 넓이
+
+        imgH = $(".img-wrap img").height();
+        imgW = $(".img-wrap img").width();
+
+        if((imgH/imgW) > 0.75){ // 정사각형에 가깝거나 세로형
+            $(".img-wrap img").css({
+                "width" : imgWrapW + "px",
+                "height" : "auto"
+            });
+
+            $(".img-wrap img").attr("img-type","가로 100%");
+        } else { // 가로형
+            $(".img-wrap img").css({
+                "width" : "auto",
+                "height" : imgWrapH + "px"
+            });
+
+            $(".img-wrap img").attr("img-type","세로 100%");
+        }
+
+        $(".img-wrap img").css({
+            "left" : 50 + "%",
+            "margin-left" : - (imgW - imgWrapW)/2 + "px"
+        });
+    });
+}
 
 
 function imgRatioController(){

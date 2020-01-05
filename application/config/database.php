@@ -75,7 +75,7 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> '',
-	'hostname' => 'db.2020mpc.com',
+	'hostname' => 'db.dev.2020mpc.com',
 	'username' => DATABASE_ID,
 	'password' => DATABASE_PASSWORD,
 	'database' => DATABASE,

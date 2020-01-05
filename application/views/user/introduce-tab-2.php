@@ -5,7 +5,7 @@
         <div class="container">
             <div class="row d-flex justify-content-center">
                 <div class="col col-xs-12 col-md-12 col-lg-10">
-                    <img src="/images/introduce/img-tour-map.png" style="width:100%;">
+                    <img src="/images/introduce/img-tour-map.jpg" style="width:100%;">
                 </div>
             </div>
 

@@ -110,6 +110,10 @@ $third-color:rgb(164, 208, 70);
             color:#333;
             padding-top:3px;
             padding-bottom:3px;
+
+            &:hover {
+                border-bottom:1px solid $primary-color;
+            }
         }
     }
 }
@@ -155,6 +159,48 @@ $third-color:rgb(164, 208, 70);
       }
     }
   }
+}
+
+
+#registration-form {
+    .col {
+        padding:8px;
+    }
+
+    .table-label {
+        text-align: left;
+        width:25%;
+        max-width: 200px;
+        min-width: 100px;
+    }
+
+    .input-wrapper {
+        border-bottom:1px solid #999;
+
+        input, select {
+            border:0;
+            width:100%;
+
+            background: transparent;
+
+            font-size: 1rem;
+            padding: 6px 5px 4px;
+        }
+
+        &.type-input {
+            input {
+                -webkit-appearance: none;
+                appearance: none;
+            }
+        }
+
+        &.type-select {
+            select {
+                -webkit-appearance: none;
+                appearance: none;
+            }
+        }
+    }
 }
 
 @media (max-width: 992px) {

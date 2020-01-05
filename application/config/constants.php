@@ -88,12 +88,18 @@ defined('EXIT__AUTO_MAX')      OR define('EXIT__AUTO_MAX', 125); // highest auto
 switch (ENVIRONMENT)
 {
     case 'development':
+        define("DATABASE", "dbdevmpc2020");
+        define("DATABASE_ID", "devmpc2020");
+        define("DATABASE_PASSWORD", "mpc2020-_+");
+        //SITE URL
+        define("SITE_URL", "http://dev.2020mpc.com/");
+        break;
     case 'testing':
     case 'production':
         define("DATABASE", "dbmpc2020");
         define("DATABASE_ID", "mpc2020");
         define("DATABASE_PASSWORD", "mpc2020-_+");
         //SITE URL
-        define("SITE_URL", "http://xpresssydney.com/");
+        define("SITE_URL", "http://www.2020mpc.com/");
     break;
 }

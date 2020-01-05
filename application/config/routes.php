@@ -59,3 +59,4 @@ $route['introduce'] = '/user/introduce';
 $route['main'] = '/user';
 $route['top_mpc'] = '/user/top_mpc';
 $route['schedule'] = '/user/schedule';
+$route['registration'] = '/user/registration';

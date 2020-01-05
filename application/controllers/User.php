@@ -72,6 +72,21 @@ class User extends CI_Controller {
         }
     }
 
+    public function registration()
+    {
+        if($this->is_logged == 'NO')
+        {
+          $this->index();
+        }
+        else
+        {
+          $data['is_logged'] = $this->is_logged;
+          $data['user_id']  = $this->user_id;
+          $data['pathname'] = 'registration';
+          $this->load->view('user/registration',$data);
+        }
+    }
+
     public function logout()
     {
         // session_start();
