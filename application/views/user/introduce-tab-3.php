@@ -1,132 +1,16 @@
 <!-- 싱가포르 필수 팁 -->
 <div class="tab-pane fade" id="prepare" role="tabpanel" aria-labelledby="prepare-tab">
 
-    <!-- 12.22
-  <section class="introduce-section info-grid">
-      <div class="container">
-
-          <div class="row d-flex justify-content-center">
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-plug.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>전압 및 충전기</h5>
-                      <p>
-                          220V ~ 240V, 50Hz<br>
-                          한국과 동일한 충전기사용이 가능합니다.
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-currency.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>환전금</h5>
-                      <p>
-                          화폐는 싱가프로 달러(SGD)이며, 주거래 은행에서 미리 환전하시는 것이 좋습니다.
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-luggage.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>여행가방</h5>
-                      <p>
-                          하드케이스 같은 딱딱한 가방이 좋으며, 수화물은 1인 20kg, 기내용은 10kg까지 가능합니다.
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-pulse.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>손가방</h5>
-                      <p>
-                          현금, 항공권, 여권 등 기타 귀중품은 손 가방에 따로 보관합니다.
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-creditcard.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>신용카드</h5>
-                      <p>
-                          만일의 경우를 대비하여 신분증명도 가능한 신용카드를 가져갑니다.<br>(VISA 또는 MASTER카드 가능)
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-pill.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>상비약</h5>
-                      <p>
-                          비상상비약(소화제, 지사제, 멀미약, 두통약 등) 및 평소 복용하는 약을 준비합니다.
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-shirts.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>의류</h5>
-                      <p>
-                          평균기온이 24도~ 32도 열대기후로 더운 날씨에 대비한 의류로 준비합니다.
-                      </p>
-                  </div>
-              </div>
-              <div class="col col-12 col-xs-12 col-sm-6 text-center">
-                  <div class="item">
-                      <img src="/images/introduce/icon-sun-umbrella.png" class="rounded d-block">
-                  </div>
-                  <div class="description">
-                      <h5>자외선 및 우천대비</h5>
-                      <p>
-                          모자, 선글라스, 자외선차단크림으로 피부를 보호하며, 비옷이나 우산은 작고 가벼운 것으로 준비합니다.
-                      </p>
-                  </div>
-              </div>
-
-
-          </div>
-
-
-        <div class="row d-flex no-gutters" style="margin-top:80px;">
-            <div class="col col-6 col-md-3">
-                <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1">펀비 버스</button>
-            </div>
-            <div class="col col-6 col-md-3">
-                <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2">칠리크랩 Best 3</button>
-            </div>
-            <div class="col col-6 col-md-3">
-                <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3">맛있는 기념품</button>
-            </div>
-            <div class="col col-6 col-md-3">
-                <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4">싱가포르 화려한 밤</button>
-            </div>
-        </div>
-      </div>
-  </section>
-  -->
 
   <section class="introduce-section tour-information" style="margin-top:2rem;">
 
-      <div  class="container landmark">
+      <div id="landmark-2-1" class="container landmark">
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-xl-6">
                   <img src="/images/introduce/img-funbee.jpg" class="mb-3 img-1">
               </div>
               <div class="col col-12 col-xl-6 align-self-end">
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-xxxl">
                       펀비 버스
                   </div>
                   <p class="description">
@@ -136,14 +20,19 @@
               </div>
           </div>
       </div>
-      <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:4rem;"></div>
-      <div  class="container landmark">
+
+      <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:0.5rem;"></div>
+
+      <div id="landmark-2-2" class="container landmark">
           <div class="row d-flex" style="margin-bottom:4rem;">
               <div class="col col-12 col-md-8">
                   <img src="/images/introduce/img-jumbo-seafood.jpg" class="mb-3 img-1">
               </div>
-              <div class="col col-12 col-md-4">
-                  <div style="font-size:2.6rem;">
+              <div class="col col-12 col-md-4 align-self-end">
+                  <div class="title title-xs">
+                      칠리크랩 <span class="font-circular-light">Best</span> 3
+                  </div>
+                  <div class="title title-xxxl" style="font-weight:bold;">
                       점보 시푸드 레스토랑
                   </div>
                   <p class="description">
@@ -189,13 +78,16 @@
               </div>
           </div>
       </div>
-      <div  class="container landmark">
+      <div class="container landmark">
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-md-8">
                   <img src="/images/introduce/img-no-sign-board.jpg" class="mb-3 img-1">
               </div>
-              <div class="col col-12 col-md-4">
-                  <div style="font-size:2.6rem;">
+              <div class="col col-12 col-md-4 align-self-end">
+                  <div class="title title-xs">
+                      칠리크랩 <span class="font-circular-light">Best</span> 3
+                  </div>
+                  <div class="title title-xxxl font-circular-medium">
                       No Signboard Seafood
                   </div>
                   <p class="description">
@@ -235,13 +127,16 @@
             </div>
           </div>
       </div>
-      <div  class="container landmark">
+      <div class="container landmark">
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-md-8">
                   <img src="/images/introduce/img-red-house.jpg" class="mb-3 img-1">
               </div>
-              <div class="col col-12 col-md-4">
-                  <div style="font-size:2.6rem;">
+              <div class="col col-12 col-md-4 align-self-end">
+                  <div class="title title-xs">
+                      칠리크랩 <span class="font-circular-light">Best</span> 3
+                  </div>
+                  <div class="title title-xxxl font-circular-medium">
                       Red House
                   </div>
                   <p class="description">
@@ -268,77 +163,82 @@
       </div>
   </section>
 
-  <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:4rem;"></div>
+  <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:0.5rem;"></div>
   <section class="introduce-section tour-information">
-      <div  class="container landmark">
+      <div  id="landmark-2-3" class="container landmark">
+          <div class="row d-flex">
+              <div class="col col-12 title title-xxl">
+                  맛있는 기념품
+              </div>
+          </div>
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-pron.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap bordered mb-3">
+                    <img src="/images/introduce/img-pron.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-s mb-3">
                       비첸향 프론 롤
                   </div>
-                  <p class="description">
+                  <p class="description mb-5">
                       육포 전문점으로 유명한 비첸향의 프론롤, 양념한 건새우를 춘권으로 말아 튀겼습니다.
                   </p>
               </div>
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-owl-coffee.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap bordered mb-3">
+                    <img src="/images/introduce/img-owl-coffee.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-s mb-3">
                       부엉이커피
                   </div>
-                  <p class="description">
+                  <p class="description mb-5">
                       싱가포르의 국민 커피믹스, 달고 진한맛으로 오리지널, 코코넛슈거, 헤이즐넛을 추천드립니다.
                   </p>
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-kaya-jam.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap bordered mb-3">
+                    <img src="/images/introduce/img-kaya-jam.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-s mb-3">
                       카야잼
                   </div>
-                  <p class="description">
+                  <p class="description mb-5">
                       코코넛 밀크와 달걀, 판단 잎으로 만든 잼, 특히 전문브랜드인 카야하우스의 카야잼이 유명합니다
                   </p>
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-griffon-tea.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap bordered mb-3">
+                    <img src="/images/introduce/img-griffon-tea.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-s mb-3">
                       그리폰 티
                   </div>
-                  <p class="description">
+                  <p class="description mb-5">
                       유기농 차 브랜드인 그리폰 티는 현지에서 더 유명합니다
                   </p>
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-sambil.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap bordered mb-3">
+                    <img src="/images/introduce/img-sambil.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-s mb-3">
                       칠리 삼발 소스
                   </div>
-                  <p class="description">
+                  <p class="description mb-5">
                       붉은 고추를 갈아서 만드는 칠리 삼발 소스는 현지에서 요리에 즐겨 쓰는 소스 입니다.
                   </p>
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-singapore-sling.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap bordered mb-3">
+                    <img src="/images/introduce/img-singapore-sling.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="title title-s mb-3">
                       싱가포르 슬링
                   </div>
-                  <p class="description">
+                  <p class="description mb-5">
                       싱가포르 대표 로컬 칵테일으로, 드라이 진에 체리 브랜디, 레몬주스를 넣어 만들었습니다.
                   </p>
               </div>
@@ -346,14 +246,19 @@
       </div>
   </section>
 
-  <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:4rem;"></div>
+  <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:0.5rem;"></div>
 
   <section class="introduce-section tour-information">
-      <div  class="container landmark">
+      <div id="landmark-2-4" class="container landmark">
+          <div class="row d-flex">
+              <div class="col col-12 title title-xxl">
+                  싱가포르의 화려한 밤
+              </div>
+          </div>
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-xl-6">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-one-altitude.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap">
+                    <img src="/images/introduce/img-one-altitude.jpg" class="mb-3">
                   </div>
                   <div style="font-size:2.6rem;">
                       원 알티튜드
@@ -364,8 +269,8 @@
                   </p>
               </div>
               <div class="col col-12 col-xl-6">
-                  <div class="img-wrap mb-3" style="overflow: hidden; width: 100%; height: 100%; max-height: 300px;">
-                    <img src="/images/introduce/img-level33.jpg" class="img-2" style="width: auto; height: 100%;">
+                  <div class="img-wrap">
+                    <img src="/images/introduce/img-level33.jpg" class="mb-3">
                   </div>
                   <div style="font-size:2.6rem;">
                       레벨33

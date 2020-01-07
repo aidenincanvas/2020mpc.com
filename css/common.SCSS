@@ -12,8 +12,26 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "MetLifeCircular-Bold";
+  src: url("/font/MetLifeCircular-Bold.woff") format("woff");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "MetLifeCircular-Light";
+  src: url("/font/MetLifeCircular-Light.woff") format("woff");
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "MetLifeCircular-Medium";
+  src: url("/font/MetLifeCircular-Medium.woff") format("woff");
+  font-weight: 400;
+}
+
 body {
-  font-family: 'Utopia', 'Noto Sans KR', sans-serif;
+  font-family: 'Utopia', 'MetLifeCircular-Medium', 'Noto Sans KR', sans-serif;
   word-break: keep-all;
 }
 
@@ -60,6 +78,27 @@ $third-color:rgb(164, 208, 70);
   color: red;
 }
 
+
+
+
+.font-circular-bold {
+    font-family: 'MetLifeCircular-Bold';
+}
+
+.font-circular-medium {
+    font-family: 'MetLifeCircular-Medium';
+}
+
+.font-circular-light {
+    font-family: 'MetLifeCircular-Light';
+}
+
+
+
+
+
+
+
 #logo-image {
   width: 100%;
   max-width: 150px;
@@ -94,29 +133,39 @@ $third-color:rgb(164, 208, 70);
 
 #scroll-fix-tab {
     background: rgba(0,0,0,.5);
-}
 
-#scroll-fixed-tab {
-    padding-top:10px;
-    padding-bottom:10px;
+    .sub-tab {
+        padding-top:10px;
+        padding-bottom:10px;
 
-    .btn {
-        &.btn-no-radius {
-            border-radius: 0;
+        .col {
+            border-left:1px solid rgb(50,50,50);
+
+            &:last-child {
+                border-right:1px solid rgb(50,50,50);
+            }
         }
 
-        &.scroll-to-landmark {
-            // border:1px solid #333;
-            color:#333;
-            padding-top:3px;
-            padding-bottom:3px;
+        .btn {
 
-            &:hover {
-                border-bottom:1px solid $primary-color;
+            &.btn-no-radius {
+                border-radius: 0;
+            }
+
+            &.scroll-to-landmark {
+                // border:1px solid #333;
+                color:#333;
+                padding-top:3px;
+                padding-bottom:3px;
+
+                // &:hover {
+                //     border-bottom:1px solid $primary-color;
+                // }
             }
         }
     }
 }
+
 
 
 #contents-tab {
@@ -578,12 +627,14 @@ p.description {
     }
 
     .shop-info {
+
      margin-bottom: 0;
 
-
-
      h5 {
-       color: #0090da;
+
+         color: rgb(50,50,50);
+
+       //color: #0090da;
        padding: 15px 15px 0 15px;
      }
 
@@ -619,6 +670,10 @@ p.description {
 
            i {
                margin-left: -22px;
+           }
+
+           a {
+               color:#666;
            }
        }
      }
@@ -946,11 +1001,6 @@ img {
   }
 }
 
-.img-rounded {
-  border-radius: 50%;
-  width: 100%;
-}
-
 .top-line-1px {
   border-top: 1px solid #0090da;
 }
@@ -1063,4 +1113,63 @@ footer {
   #construction-box .text-construction {
     margin-top: 50%;
   }
+}
+
+
+
+
+/**********************************************************************
+
+Typography
+
+**********************************************************************/
+
+
+.title {
+
+    font-size: 1.6rem;
+
+    &.title-xs {
+        font-size: 1.2rem;
+    }
+
+    &.title-s {
+        font-size: 1.4rem;
+    }
+
+    &.title-l {
+        font-size: 1.8rem;
+    }
+
+    &.title-xl {
+        font-size: 2rem;
+    }
+
+    &.title-xxl {
+        font-size: 2.2rem;
+    }
+
+    &.title-xxxl {
+        font-size: 2.4rem;
+    }
+
+}
+
+
+
+/**********************************************************************
+
+Image utilities
+
+**********************************************************************/
+
+.img-wrap {
+  &.bordered {
+      border:2px solid #999;
+  }
+}
+
+.img-rounded {
+  border-radius: 50%;
+  width: 100%;
 }

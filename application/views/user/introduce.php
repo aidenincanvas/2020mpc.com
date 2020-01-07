@@ -37,7 +37,7 @@
                 </div>
             </div>
             <div class="container-fluid" style=" background:#fff;">
-                <div id="scroll-fixed-tab" class="container" style="display:none;">
+                <div id="sub-tab-for-2" class="container sub-tab" style="display:none;">
                     <div class="row d-flex no-gutters">
                         <div class="col col-6 col-sm-4 col-lg-2">
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1">오챠드 로드</button>
@@ -56,6 +56,23 @@
                         </div>
                         <div class="col col-6 col-sm-4 col-lg-2">
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6">센토사, 하버 프론트</button>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="sub-tab-for-3" class="container sub-tab" style="display:none;">
+                    <div class="row d-flex no-gutters">
+                        <div class="col col-6 col-sm-3">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-1">펀비버스</button>
+                        </div>
+                        <div class="col col-6 col-sm-3">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-2">칠리버스 Best 3</button>
+                        </div>
+                        <div class="col col-6 col-sm-3">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-3">맛있는 기념품</button>
+                        </div>
+                        <div class="col col-6 col-sm-3">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-4">싱가포르의 화려한 밤</button>
                         </div>
                     </div>
                 </div>
@@ -130,15 +147,23 @@ $(document).ready(function(){
     $('.second-section').css('margin-top', navH + fixed_tab_H + "px");
 
 
+
+    // sub tab 에 대한 show hide
     $("#scroll-fix-tab .nav-link").on("click", function(){
         var _thisId = $(this).attr("id");
 
         if(_thisId == "tour-map-tab"){
-            $("#scroll-fixed-tab").show(function(){
+            $("#sub-tab-for-2").fadeIn(function(){
                 img_size_set();
             });
+            $("#sub-tab-for-3").hide();
+        } else if(_thisId == "prepare-tab"){
+            $("#sub-tab-for-3").fadeIn(function(){
+
+            });
+            $("#sub-tab-for-2").hide();
         } else {
-            $("#scroll-fixed-tab").hide();
+            $(".sub-tab").hide();
         }
     });
 });

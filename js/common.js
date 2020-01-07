@@ -9,7 +9,7 @@ $(document).ready(function(){
         $('html, body').animate( { scrollTop : 0 }, 400 );
     });
 
-    $(".img-wrap").css({
+    $(".img-wrap.has-calc").css({
         "overflow":"hidden",
         "width": 100 + "%",
         "max-height" : 300 + "px"

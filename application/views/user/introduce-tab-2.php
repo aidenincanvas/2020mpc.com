@@ -8,49 +8,6 @@
                     <img src="/images/introduce/img-tour-map.jpg" style="width:100%;">
                 </div>
             </div>
-
-            <!-- <div class="row d-flex no-gutters" style="margin-top:80px;">
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1">오챠드 로드</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2">마리나베이 시티홀</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3">리버 사이드</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4">아랍스트리트, 부기스</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5">차이나타운</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6">센토사, 하버 프론트</button>
-                </div>
-            </div> -->
-
-            <!-- <div class="row d-flex no-gutters" style="margin-top:80px;">
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-1"><i class="far fa-fw fa-arrow-alt-circle-down"></i>오챠드 로드</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2"><i class="far fa-fw fa-arrow-alt-circle-down"></i>마리나베이 시티홀</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3"><i class="far fa-fw fa-arrow-alt-circle-down"></i>리버 사이드</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4"><i class="far fa-fw fa-arrow-alt-circle-down"></i>아랍스트리트, 부기스</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5"><i class="far fa-fw fa-arrow-alt-circle-down"></i>차이나타운</button>
-                </div>
-                <div class="col col-6 col-md-4">
-                    <button type="button" class="btn btn-primary btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6"><i class="far fa-fw fa-arrow-alt-circle-down"></i>센토사, 하버 프론트</button>
-                </div>
-            </div> -->
-
         </div>
     </section>
 
@@ -63,11 +20,11 @@
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
                     <div style="font-size:2.6rem;">
-                        오차드 로드<!--  <span style="font-size:1.2rem; color:#666;">Orchard Road</span> -->
+                        오챠드 로드<!--  <span style="font-size:1.2rem; color:#666;">Orchard Road</span> -->
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">아시아에서 가장 유명한 쇼핑거리</h4>
                     <p class="description">
-                        아시아에서 가장 유명한 쇼핑 거리인 오차드 로드(Orchard Road)는 패션 애호가들과 전문 매장의 본거지이며 다양한 라이프스타일을 선택할 수 있는 곳입니다. 2.2킬로미터에 달하는 쇼핑 벨트가 형성된 오차드 로드는 처음 이곳을 방문하는 사람이든 자주 방문하는 쇼핑객이든 관계없이 누구라도 쇼핑을 즐기면서 기분을 전환할 수 있는 장소입니다.
+                        아시아에서 가장 유명한 쇼핑 거리인 오챠드 로드(Orchard Road)는 패션 애호가들과 전문 매장의 본거지이며 다양한 라이프스타일을 선택할 수 있는 곳입니다. 2.2킬로미터에 달하는 쇼핑 벨트가 형성된 오챠드 로드는 처음 이곳을 방문하는 사람이든 자주 방문하는 쇼핑객이든 관계없이 누구라도 쇼핑을 즐기면서 기분을 전환할 수 있는 장소입니다.
                     </p>
                 </div>
             </div>
@@ -84,16 +41,16 @@
                             제이콥 발라스 어린이 가든 08:00~19:00(마지막 입장 18:30)</li>
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : 1 Cluny Rd., 259569</li>
                         <li><i class="fas fa-mobile-alt fa-fw font-color-secondary"></i> : +65 6471 7361, +65 6471 7138</li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 순환선 보타닉 가든 역 하차 후 A번 출구 이용 MRT 오차드 역 B번 출구로 나와  큰 길 건너 보이는 버스 정류장에서 7, 77, 106, 123, 174번 승차 후 탕린몰이 보이면 다음에 하차.</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 순환선 보타닉 가든 역 하차 후 A번 출구 이용 MRT 오챠드 역 B번 출구로 나와  큰 길 건너 보이는 버스 정류장에서 7, 77, 106, 123, 174번 승차 후 탕린몰이 보이면 다음에 하차.</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-botanic-1.jpg" class="mb-3 img-2">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-botanic-2.jpg" class="mb-3 img-2">
                     </div>
                 </div>
@@ -110,16 +67,16 @@
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : 2 Orchard Turn, ION Orchard Level 4, 238801</li>
                         <li><i class="fas fa-mobile-alt fa-fw font-color-secondary"></i> : +65 6592 5118</li>
                         <li><i class="fas fa-globe fa-fw font-color-secondary"></i> : http://www.ionorchard.com/en/ion-sky.html</li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오차드 역과 바로 연결, 아이온 오차드 56층에 위치</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오챠드 역과 바로 연결, 아이온 오챠드 56층에 위치</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-ion-sky-1.jpg" class="mb-3 img-2">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-ion-sky-2.jpg" class="mb-3 img-2">
                     </div>
                 </div>
@@ -135,16 +92,16 @@
 
                     <ul class="dotted_info">
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : Orchard Road, Singapore</li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오차드역 하차, Wheelock Place 방면 출구로 나옴</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오챠드역 하차, Wheelock Place 방면 출구로 나옴</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-orchard-1.jpg" class="mb-3 img-2">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-orchard-2.jpg" class="mb-3 img-2">
                     </div>
                 </div>
@@ -165,12 +122,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-peranakan-1.jpg" class="mb-3 img-2">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-peranakan-2.jpg" class="mb-3 img-2">
                     </div>
                 </div>
@@ -193,17 +150,17 @@
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : 22 Orange Grove Road, Singapore 258350, Shangri-La Hotel</li>
                         <li><i class="fas fa-mobile-alt fa-fw font-color-secondary"></i> : +65 6213 4275</li>
                         <li><i class="fas fa-globe fa-fw font-color-secondary"></i> : <a href="http://www.shangri-la.com/singapore/shangrila/dining/restaurants/the-line/" target="_blank">홈페이지로 이동</a></li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오차드역 E번 출구에서 도보로 10분. 샹그릴라 호텔 로어 로비층(타워 윙에 위치)</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오챠드역 E번 출구에서 도보로 10분. 샹그릴라 호텔 로어 로비층(타워 윙에 위치)</li>
                         <li><i class="far fa-thumbs-up fa-fw font-color-secondary"></i> : 해산물</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-the-line-1.jpg" class="mb-3 img-2">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-the-line-2.jpg" class="mb-3 img-2">
                     </div>
                 </div>
@@ -225,17 +182,17 @@
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : 435 Orchard Rd., Wisma Atria 4F, 238877</li>
                         <li><i class="fas fa-mobile-alt fa-fw font-color-secondary"></i> : +65 6732 1383</li>
                         <li><i class="fas fa-globe fa-fw font-color-secondary"></i> : <a href="http://www.dintaifung.com.sg" target="_blank">홈페이지로 이동</a></li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오차드 역 E번 출구로 나와 위스마 아트리아 2층 중앙에 위치 / 또는 MRT 서머셋 역 B 출구 이용</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오챠드 역 E번 출구로 나와 위스마 아트리아 2층 중앙에 위치 / 또는 MRT 서머셋 역 B 출구 이용</li>
                         <li><i class="far fa-thumbs-up fa-fw font-color-secondary"></i> : 새우 샤오롱바오</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-din-1.jpg" class="mb-3 img-2">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-din-2.jpg" class="mb-3 img-2">
                     </div>
                 </div>
@@ -259,17 +216,17 @@
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : 1 Scotts Road, #01-16 Shaw Centre, 228208</li>
                         <li><i class="fas fa-mobile-alt fa-fw font-color-secondary"></i> : +65 6733 2225</li>
                         <li><i class="fas fa-globe fa-fw font-color-secondary"></i> : <a href="http://www.lesamis.com.sg" target="_blank">홈페이지로 이동</a></li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오차드역 A 출구로 나와 쇼 센터 2층에 위치, 쇼핑센터 왼편으로 전용 출입구가 있다.</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : MRT 오챠드역 A 출구로 나와 쇼 센터 2층에 위치, 쇼핑센터 왼편으로 전용 출입구가 있다.</li>
                         <li><i class="far fa-thumbs-up fa-fw font-color-secondary"></i> : 와인, 코스 요리</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-les-amis-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-les-amis-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -292,17 +249,17 @@
                         <li><i class="far fa-map fa-fw font-color-secondary"></i> : Mezzanine Level, Tower Wing Shangri-La Hotel, 22 Orange Grove Rd., 258350</li>
                         <li><i class="fas fa-mobile-alt fa-fw font-color-secondary"></i> : +65 6213 4486</li>
                         <li><i class="fas fa-globe fa-fw font-color-secondary"></i> : <a href="http://www.shangri-la.com/singapore/shangrila/dining/bars-lounges/rose-veranda" target="_blank">홈페이지로 이동</a></li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : 오차드 역 A 출구에서 도보 10분 / 샹그릴라 호텔 타워 윙, 메짜니(Mezzanine) 층에 위치</li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> : 오챠드 역 A 출구에서 도보 10분 / 샹그릴라 호텔 타워 윙, 메짜니(Mezzanine) 층에 위치</li>
                         <li><i class="far fa-thumbs-up fa-fw font-color-secondary"></i> : 애프터눈 티</li>
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -346,12 +303,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-Lau-Pa-Sat-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-Lau-Pa-Sat-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -378,12 +335,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-merlion-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-merlion-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -409,12 +366,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-flyer-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-flyer-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -438,12 +395,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-museum-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-museum-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -471,12 +428,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-gunthers-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-gunthers-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -504,12 +461,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-db-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-db-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -539,12 +496,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-lantern-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-lantern-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -574,12 +531,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-palm-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-palm-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -617,12 +574,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -641,12 +598,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-riverside-point-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -666,12 +623,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-reose-veranda-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -692,12 +649,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-clark-quay-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-clark-quay-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -724,12 +681,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-brewerkz-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-brewerkz-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -756,12 +713,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-songfa-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-songfa-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -789,12 +746,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-quayside-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-quayside-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -811,7 +768,7 @@
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
                     <div style="font-size:2.6rem;">
-                        아랍스트리트, 부기스,
+                        아랍스트리트, 부기스
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">싱가포르 안 작은 아랍</h4>
                     <p class="description">
@@ -839,12 +796,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-malay-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-malay-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -863,12 +820,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-bugis-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-bugis-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -891,12 +848,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-mosque-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-mosque-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -915,12 +872,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-arab-st-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-arab-st-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -950,12 +907,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-ah-chew-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-ah-chew-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -980,12 +937,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-food-junction-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-food-junction-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1011,12 +968,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-honeymoon-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-honeymoon-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1041,12 +998,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-jollibean-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-jollibean-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1090,12 +1047,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-buddha-temple-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-buddha-temple-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1118,12 +1075,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-mariamman-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-mariamman-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1148,12 +1105,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-oriental-spa-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-oriental-spa-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1178,12 +1135,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-far-east-square-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-far-east-square-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1209,12 +1166,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-nanyang-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-nanyang-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1241,12 +1198,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-mei-hong-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-mei-hong-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1276,12 +1233,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-kaya-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-kaya-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1306,12 +1263,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-tong-heng-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-tong-heng-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1328,7 +1285,7 @@
                 </div>
                 <div class="col col-12 col-xl-4 align-self-end">
                     <div style="font-size:2.6rem;">
-                        센토사, 하버프론트,
+                        센토사, 하버프론트
                     </div>
                     <h4 style="font-weight:100; font-size:1.5rem; color:#333; margin-bottom:20px;">자연과 휴양이 공존하는 곳</h4>
                     <p class="description">
@@ -1354,12 +1311,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-sentosa-luge-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-sentosa-luge-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1378,12 +1335,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-tanjong-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-tanjong-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1403,12 +1360,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-palawan-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-palawan-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1432,12 +1389,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-gogreen-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-gogreen-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1463,12 +1420,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-no-signboard-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-no-signboard-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1494,12 +1451,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-dian-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-dian-2.jpeg" class="mb-3">
                     </div>
                 </div>
@@ -1528,12 +1485,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-food-republic-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-food-republic-2.jpg" class="mb-3">
                     </div>
                 </div>
@@ -1559,12 +1516,12 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-trapizza-1.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-sm-6 col-lg-4">
-                    <div class="img-wrap">
+                    <div class="img-wrap has-calc">
                         <img src="/images/introduce/img-trapizza-2.jpg" class="mb-3">
                     </div>
                 </div>
