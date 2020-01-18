@@ -19,6 +19,18 @@
                   </p>
               </div>
           </div>
+          <div class="row">
+              <div class="col">
+                  <img src="/images/introduce/img-time-table-funbee-bus.jpg" class="mb-3">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col">
+                  <a href="http://citytours.sg/singapore-hop-on-off-bus-schedule.html" class="btn btn-primary btn-block" target="_blank">
+                      펀비버스 시간표 바로가기
+                  </a>
+              </div>
+          </div>
       </div>
 
       <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:0.5rem;"></div>
@@ -173,7 +185,7 @@
           </div>
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap bordered mb-3">
+                  <div class="img-wrap-t-2 bordered bordered mb-3">
                     <img src="/images/introduce/img-pron.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -184,7 +196,7 @@
                   </p>
               </div>
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap bordered mb-3">
+                  <div class="img-wrap-t-2 bordered bordered mb-3">
                     <img src="/images/introduce/img-owl-coffee.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -196,7 +208,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap bordered mb-3">
+                  <div class="img-wrap-t-2 bordered bordered mb-3">
                     <img src="/images/introduce/img-kaya-jam.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -208,7 +220,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap bordered mb-3">
+                  <div class="img-wrap-t-2 bordered bordered mb-3">
                     <img src="/images/introduce/img-griffon-tea.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -220,7 +232,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap bordered mb-3">
+                  <div class="img-wrap-t-2 bordered bordered mb-3">
                     <img src="/images/introduce/img-sambil.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -232,7 +244,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap bordered mb-3">
+                  <div class="img-wrap-t-2 bordered bordered mb-3">
                     <img src="/images/introduce/img-singapore-sling.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -257,8 +269,8 @@
           </div>
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-xl-6">
-                  <div class="img-wrap">
-                    <img src="/images/introduce/img-one-altitude.jpg" class="mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
+                    <img src="/images/introduce/img-one-altitude.jpg">
                   </div>
                   <div style="font-size:2.6rem;">
                       원 알티튜드
@@ -269,8 +281,8 @@
                   </p>
               </div>
               <div class="col col-12 col-xl-6">
-                  <div class="img-wrap">
-                    <img src="/images/introduce/img-level33.jpg" class="mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
+                    <img src="/images/introduce/img-level33.jpg">
                   </div>
                   <div style="font-size:2.6rem;">
                       레벨33

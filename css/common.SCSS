@@ -134,33 +134,55 @@ $third-color:rgb(164, 208, 70);
 #scroll-fix-tab {
     background: rgba(0,0,0,.5);
 
+    border-bottom:1px solid rgb(150,150,150);
+
     .sub-tab {
-        padding-top:10px;
-        padding-bottom:10px;
+        // padding-top:10px;
+        // padding-bottom:10px;
 
         .col {
-            border-left:1px solid rgb(50,50,50);
 
-            &:last-child {
-                border-right:1px solid rgb(50,50,50);
+            padding-top:10px;
+            padding-bottom:10px;
+
+            &:hover {
+                padding-bottom:8px;
+                border-bottom:2px solid $primary-color;
+
+                .btn {
+                    &.scroll-to-landmark {
+                        color:$primary-color;
+                        font-weight: 700;
+
+                        .font-circular-light {
+                            font-family: 'MetLifeCircular-Medium';
+                        }
+                    }
+                }
             }
         }
 
         .btn {
 
+            border-left:1px solid rgb(50,50,50);
+
+            // &:last-child {
+            //     border-right:1px solid rgb(50,50,50);
+            // }
+
             &.btn-no-radius {
                 border-radius: 0;
+            }
+
+            &.last-btn {
+                border-right:1px solid rgb(50,50,50);
             }
 
             &.scroll-to-landmark {
                 // border:1px solid #333;
                 color:#333;
-                padding-top:3px;
-                padding-bottom:3px;
-
-                // &:hover {
-                //     border-bottom:1px solid $primary-color;
-                // }
+                padding-top:1px;
+                padding-bottom:0;
             }
         }
     }
@@ -1008,33 +1030,56 @@ img {
 .time-table {
   width: 100%;
 
-  tr:nth-child(even) {
-    background-color: #f5f5f5;
-  }
+  // tr:nth-child(even) {
+  //   background-color: #f5f5f5;
+  // }
 
   th, td {
     padding: 0.7rem 0.5rem 0.5rem;
+    color:#575652;
+    vertical-align: middle;
   }
 
   th {
-    background-color: #0061a0;
+    background-color: #0094da;
     color: #fff;
     text-align: center;
+    font-size: 1.4rem;
+    font-weight: 400;
+
+    border-right:1px solid #fff;
+
+    &:last-child {
+      border-right:0;
+    }
   }
 
   td {
-    border-color: #222;
+    border-color: #1c9dde;
+    border-right:1px solid #1c9dde;
 
-    &:first-child {
-      background-color: #0090da;
-      color: #fff;
-      text-align: center;
-      min-width: 60px;
+    text-align: center;
+
+    font-family: "MetLifeCircular-Light";
+
+    &:last-child {
+      border-right:0;
     }
 
     &:nth-child(2), &:nth-child(3), &:last-child {
       width: 30%;
     }
+  }
+
+  tfoot {
+      td {
+          border-right:1px solid #1c9dde;
+          border-bottom:1px solid #1c9dde;
+
+          &:last-child {
+            border-right:0;
+          }
+      }
   }
 }
 
@@ -1164,6 +1209,12 @@ Image utilities
 **********************************************************************/
 
 .img-wrap {
+  &.bordered {
+      border:2px solid #999;
+  }
+}
+
+.img-wrap-t-2 {
   &.bordered {
       border:2px solid #999;
   }

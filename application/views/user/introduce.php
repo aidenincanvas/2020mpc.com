@@ -30,13 +30,17 @@
                             <a class="nav-link" id="prepare-tab" data-toggle="tab" href="#prepare" role="tab" aria-controls="contact" aria-selected="false">싱가포르 필수 팁</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" id="restaurant-tab" data-toggle="tab" href="#restaurant" role="tab" aria-controls="contact" aria-selected="false">센토사섬 즐기기<!--추천 현지맛집--></a>
+                            <a class="nav-link" id="restaurant-tab" data-toggle="tab" href="#restaurant" role="tab" aria-controls="contact" aria-selected="false">센토사섬 즐기기</a>
                           </li>
                         </ul>
                     </div>
                 </div>
             </div>
+
+            <!-- 서브 탭 -->
             <div class="container-fluid" style=" background:#fff;">
+
+                <!-- 세부지역 안내 서브 탭 -->
                 <div id="sub-tab-for-2" class="container sub-tab" style="display:none;">
                     <div class="row d-flex no-gutters">
                         <div class="col col-6 col-sm-4 col-lg-2">
@@ -55,27 +59,46 @@
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5">차이나타운</button>
                         </div>
                         <div class="col col-6 col-sm-4 col-lg-2">
-                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-6">센토사, 하버 프론트</button>
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark last-btn" data-scroll-id="landmark-6">센토사, 하버 프론트</button>
                         </div>
                     </div>
                 </div>
+                <!--/ 세부지역 안내 서브 탭 -->
 
+                <!-- 싱가포르 필수 팁 서브 탭 -->
                 <div id="sub-tab-for-3" class="container sub-tab" style="display:none;">
                     <div class="row d-flex no-gutters">
                         <div class="col col-6 col-sm-3">
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-1">펀비버스</button>
                         </div>
                         <div class="col col-6 col-sm-3">
-                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-2">칠리버스 Best 3</button>
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-2">칠리크랩<span class="font-circular-light">Best</span> 3</button>
                         </div>
                         <div class="col col-6 col-sm-3">
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-3">맛있는 기념품</button>
                         </div>
                         <div class="col col-6 col-sm-3">
-                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-4">싱가포르의 화려한 밤</button>
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark last-btn" data-scroll-id="landmark-2-4">싱가포르의 화려한 밤</button>
                         </div>
                     </div>
                 </div>
+                <!--/ 싱가포르 필수 팁 서브 탭 -->
+
+                <!-- 센토사 섬 즐기기 서브 탭 -->
+                <div id="sub-tab-for-4" class="container sub-tab" style="display:none;">
+                    <div class="row d-flex no-gutters">
+                        <div class="col col-6 col-sm-4">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="recommended-schedule-1">추천일정 1</button>
+                        </div>
+                        <div class="col col-6 col-sm-4">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="recommended-schedule-2">추천일정 2</button>
+                        </div>
+                        <div class="col col-6 col-sm-4">
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark last-btn" data-scroll-id="recommended-schedule-3">추천일정 3</button>
+                        </div>
+                    </div>
+                </div>
+                <!--/ 센토사 섬 즐기기 서브 탭 -->
             </div>
         </div>
     </section>
@@ -96,7 +119,6 @@
                         <!-- 싱가포르 필수 팁 -->
                         <?php include('introduce-tab-3.php');?>
                         <!--// 싱가포르 필수 팁 -->
-
 
                         <!-- 추천 현지 맛집 -->
                         <?php include('introduce-tab-4.php');?>
@@ -197,12 +219,16 @@ $(window).scroll(function(){
         );
     }
 
-
+    scroll_landmark();
 });
 
 $(window).resize(function(){
     imgRatioController();
 });
+
+function scroll_landmark(){
+
+}
 
 </script>
 </html>

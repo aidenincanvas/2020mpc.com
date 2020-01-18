@@ -18,12 +18,53 @@
             </div>
         </div>
     </section> -->
-    <section class="introduce-section first-section">
+    <section id="registration-form" class="introduce-section first-section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col col-12 col-lg-9" style="padding-bottom:50px;">
                     <h3 style="margin-top:50px;">예약</h3>
-                    <div id="registration-form" class="container">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-12 col-lg-9">
+                    <h3>여행일자선택</h3>
+                    <input type="date">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-12 col-lg-9">
+                    <h3>항공편선택</h3>
+                    <div class="container">
+                        <div class="row">
+                            <div class="col table-label">
+                                항공편
+                            </div>
+                            <div class="col">
+                                <div class="input-wrapper type-select">
+                                    <select name="flight_id" id="flight_id">
+                                        <option value="">
+                                            대한항공 (인천 - 취리히 KE0917편, 밀라노 - 인천 KE0928편)
+                                        </option>
+                                        <option>
+                                            대한항공 (인천 - 취리히 KE0917편, 밀라노 - 인천 KE0928편)
+                                        </option>
+                                    </select>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-12 col-lg-9">
+                    <h3>예약</h3>
+                    <div class="container">
                         <div class="row">
                             <div class="col table-label">
                                 아이디
