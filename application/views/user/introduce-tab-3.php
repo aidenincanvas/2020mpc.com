@@ -10,7 +10,7 @@
                   <img src="/images/introduce/img-funbee.jpg" class="mb-3 img-1">
               </div>
               <div class="col col-12 col-xl-6 align-self-end">
-                  <div class="title title-xxxl">
+                  <div class="title title-xxxl font-color-black">
                       펀비 버스
                   </div>
                   <p class="description">
@@ -44,7 +44,7 @@
                   <div class="title title-xs">
                       칠리크랩 <span class="font-circular-light">Best</span> 3
                   </div>
-                  <div class="title title-xxxl" style="font-weight:bold;">
+                  <div class="title title-xxxl font-color-black" style="font-weight:bold;">
                       점보 시푸드 레스토랑
                   </div>
                   <p class="description">
@@ -55,34 +55,34 @@
           </div>
           <div class="row d-flex" style="margin-bottom:4rem;">
               <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>리버사이드 포인트</h5> Riverside Point<br>
+                <h5 class="font-color-black">리버사이드 포인트</h5> Riverside Point<br>
                 영업시간 : 점심 12:00~15:00 / 저녁 18:00~24:00<br>
                 주소 : 30 Merchant Road # 01-01/02 Riverside Point<br>
                 전화번호 : +65-6532-3435<br>
                 찾아가는 법 : MRT 클락 키 역 B 출구
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>리버워크</h5> The Riverwalk<br>
+                <h5 class="font-color-black">리버워크</h5> The Riverwalk<br>
                 영업시간 : 점심 12:00~15:00 / 저녁 18:00~24:00<br>
                 주소 : 20 Upper Circular Road #B1-45 The Riverwalk<br>
                 전화번호 : +65-6534-3435<br>
                 찾아가는 법 : 보트키에서 클락키로 넘어가는 엘긴 다리 아래 위치
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>이스트 코스트 시푸드 센터</h5> East Coast Seafood Centre<br>
+                <h5 class="font-color-black">이스트 코스트 시푸드 센터</h5> East Coast Seafood Centre<br>
                 영업시간 : 월~금 17:00~23:45, 토~일, 공휴일 11:30~24:00 / 마지막 주문 23:15<br>
                 주소 : Blk 1206 East Coast Parkway #01-07/08 East Coast Seafood Centre<br>
                 전화번호 : +65-6442-3435<br>
                 찾아가는 법 : MRT 버독 역에서 택시로 10분분
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>뎀시 힐</h5> Dempsey Hill<br>
+                <h5 class="font-color-black">뎀시 힐</h5> Dempsey Hill<br>
                 영업시간 : 점심 12:00~15:00, 저녁 17:30~23:30<br>
                 전화번호 : +65-6479-3435 주소 : Blk 11 #01-16 Dempsey Road<br>
                 찾아가는 법 : MRT 오차드 역에서 75, 105, 174번 탑승 후 뎀시 클럽하우스 하차(약 30분 소요)
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>Nsrcc's 창이 클럽하우스</h5> Nsrcc's Changi Clubhouse<br>
+                <h5 class="font-color-black">Nsrcc's 창이 클럽하우스</h5> Nsrcc's Changi Clubhouse<br>
                 영업시간 : 월~금 11:30~15:00, 18:00~23:00, 토~일, 공휴일 10:00~15:00, 17:30~23:00 / 마지막 주문 22:15<br>
                 주소 : National Service Resort & Country Club, 10 Changi Coast Walk, 499739<br>
                 전화번호 : +65-6552-3435<br>
@@ -99,7 +99,7 @@
                   <div class="title title-xs">
                       칠리크랩 <span class="font-circular-light">Best</span> 3
                   </div>
-                  <div class="title title-xxxl font-circular-medium">
+                  <div class="title title-xxxl font-circular-medium font-color-black">
                       No Signboard Seafood
                   </div>
                   <p class="description">
@@ -109,7 +109,7 @@
           </div>
           <div class="row d-flex" style="margin-bottom:4rem;">
               <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>비보 시티</h5> Vivo City<br>
+                <h5 class="font-color-black">비보 시티</h5> Vivo City<br>
                 영업시간 : 11:00~22:30<br>
                 주소 : 1Hobourfront Walk #03-02 Vivo City <br>
                 전화번호 : +65-6376-9959<br>
@@ -117,21 +117,21 @@
 
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>에스플러네이드</h5> The Esplanade<br>
+                <h5 class="font-color-black">에스플러네이드</h5> The Esplanade<br>
                 영업시간 : 11:00~22:30<br>
                 주소 : 8 Raffles Avenue #01-14/16 The Esplanade <br>
                 전화번호 + 65-6336+9959<br>
                 찾아가는 법 : MRT 에스플러네이드 역 하차 후 1층에 위치
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>더 센트럴 @ 클락 키</h5> The Central @ Clark Quay<br>
+                <h5 class="font-color-black">더 센트럴 @ 클락 키</h5> The Central @ Clark Quay<br>
                 영업시간 : 11:00~14:30, 17:30~22:30<br>
                 주소 : 6 Eu Tong Sen Street #04-63 The Central @ Clark Quay <br>
                 전화번호 : +65-6221-9959<br>
                 찾아가는 법 : MRT 클락 키 역에서 하차, 센트럴 몰 내에 위치
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>겔랑</h5> Gelyang<br>
+                <h5 class="font-color-black">겔랑</h5> Gelyang<br>
                 영업시간 : 11:00~01:00<br>
                 주소 : No. 414 Geylang Road<br>
                 전화번호 : +65-6842-3415<br>
@@ -148,7 +148,7 @@
                   <div class="title title-xs">
                       칠리크랩 <span class="font-circular-light">Best</span> 3
                   </div>
-                  <div class="title title-xxxl font-circular-medium">
+                  <div class="title title-xxxl font-circular-medium font-color-black">
                       Red House
                   </div>
                   <p class="description">
@@ -158,14 +158,14 @@
           </div>
           <div class="row d-flex" style="margin-bottom:4rem;">
               <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                  <h5>프린셉 스트리트</h5> Prinsep St.<br>
+                  <h5 class="font-color-black">프린셉 스트리트</h5> Prinsep St.<br>
                   영업시간 : 월~금 11:30~14:30, 17:00~22:30, 토~일, 공휴일 11:00~22:30 / 마지막 주문 22:00<br>
                   주소 : 68 Prinsep Street, 188661<br>
                   전화번호 : +65-6336-6080<br>
                   찾아가는 법 : MRT 로처 역에서 프린셉 스트리트 방면으로 나와 도보 7분
             </div>
             <div class="col col-12 col-sm-6 col-md-4 mb-5">
-                <h5>로버트슨 키</h5> Robertson Quay<br>
+                <h5 class="font-color-black">로버트슨 키</h5> Robertson Quay<br>
                 영업시간: 월~금 15:00~22:30, 토~일, 공휴일 11:00~22:30 / 마지막 주문 22:00<br>
                 주소 : #01-14 The Quayside 60 Robertson Quay <br>
                 전화번호 : +65-6735-7666<br>
@@ -179,7 +179,7 @@
   <section class="introduce-section tour-information">
       <div  id="landmark-2-3" class="container landmark">
           <div class="row d-flex">
-              <div class="col col-12 title title-xxl">
+              <div class="col col-12 title title-xxl font-color-black">
                   맛있는 기념품
               </div>
           </div>
@@ -263,7 +263,7 @@
   <section class="introduce-section tour-information">
       <div id="landmark-2-4" class="container landmark">
           <div class="row d-flex">
-              <div class="col col-12 title title-xxl">
+              <div class="col col-12 title title-xxl font-color-black">
                   싱가포르의 화려한 밤
               </div>
           </div>
@@ -272,7 +272,7 @@
                   <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-one-altitude.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="font-color-black" style="font-size:2.6rem;">
                       원 알티튜드
                   </div>
                   <p class="description">
@@ -284,7 +284,7 @@
                   <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-level33.jpg">
                   </div>
-                  <div style="font-size:2.6rem;">
+                  <div class="font-color-black" style="font-size:2.6rem;">
                       레벨33
                   </div>
                   <p class="description">
@@ -301,7 +301,7 @@
                   <img src="/images/introduce/img-riverside-point.jpg" class="mb-3 img-1">
               </div>
               <div class="col col-12 col-xl-4 align-self-end">
-                  <div style="font-size:2.6rem;">
+                  <div class="font-color-black" style="font-size:2.6rem;">
                       리버사이드 포인트
                   </div>
                   <p class="description">

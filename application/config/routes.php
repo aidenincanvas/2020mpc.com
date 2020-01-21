@@ -60,3 +60,5 @@ $route['main'] = '/user';
 $route['top_mpc'] = '/user/top_mpc';
 $route['schedule'] = '/user/schedule';
 $route['registration'] = '/user/registration';
+$route['for_gold'] = '/user/for_gold';
+$route['hotel'] = '/user/hotel';

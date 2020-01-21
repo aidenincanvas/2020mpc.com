@@ -44,7 +44,7 @@
       <div class="collapse navbar-collapse" id="navbarsMain">
         <ul class="navbar-nav w-100">
             <li class="nav-item">
-              <a id="menu-top-mpc" class="nav-link" href="/top_mpc">TOP MPC</a>
+              <a id="menu-top-mpc" class="nav-link font-circular-light" href="/top_mpc">TOP MPC</a>
             </li>
           <li class="nav-item">
             <a id="menu-introduce" class="nav-link" href="/introduce">여행지안내</a>
@@ -54,10 +54,10 @@
             <a id="menu-location-guide" class="nav-link" href="/schedule">일정안내</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link coming-soon font-circular-light" href="#">For Gold</a>
+            <a id="menu-for_gold" class="nav-link font-circular-light" href="/for_gold">For Gold</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link coming-soon" href="#">호텔소개</a>
+            <a id="menu-hotel" class="nav-link" href="/hotel">호텔소개</a>
           </li>
           <li class="nav-item">
             <a class="nav-link coming-soon" href="#">예약</a>

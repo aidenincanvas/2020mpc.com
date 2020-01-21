@@ -179,15 +179,25 @@ $(document).ready(function(){
                 img_size_set();
             });
             $("#sub-tab-for-3").hide();
+            $("#sub-tab-for-4").hide();
         } else if(_thisId == "prepare-tab"){
             $("#sub-tab-for-3").fadeIn(function(){
 
             });
             $("#sub-tab-for-2").hide();
+            $("#sub-tab-for-4").hide();
+        } else if(_thisId == "restaurant-tab"){
+            $("#sub-tab-for-4").fadeIn(function(){
+                
+            });
+            $("#sub-tab-for-2").hide();
+            $("#sub-tab-for-3").hide();
         } else {
             $(".sub-tab").hide();
         }
     });
+
+
 });
 
 

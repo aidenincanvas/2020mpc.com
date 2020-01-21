@@ -72,6 +72,36 @@ class User extends CI_Controller {
         }
     }
 
+    public function for_gold()
+    {
+        if($this->is_logged == 'NO')
+        {
+          $this->index();
+        }
+        else
+        {
+          $data['is_logged'] = $this->is_logged;
+          $data['user_id']  = $this->user_id;
+          $data['pathname'] = 'for_gold';
+          $this->load->view('user/for_gold',$data);
+        }
+    }
+
+    public function hotel()
+    {
+        if($this->is_logged == 'NO')
+        {
+          $this->index();
+        }
+        else
+        {
+          $data['is_logged'] = $this->is_logged;
+          $data['user_id']  = $this->user_id;
+          $data['pathname'] = 'hotel';
+          $this->load->view('user/hotel',$data);
+        }
+    }
+
     public function registration()
     {
         if($this->is_logged == 'NO')
