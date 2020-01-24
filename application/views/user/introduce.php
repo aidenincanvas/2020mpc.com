@@ -75,7 +75,7 @@
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-2">칠리크랩<span class="font-circular-light">Best</span> 3</button>
                         </div>
                         <div class="col col-6 col-sm-3">
-                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-3">맛있는 기념품</button>
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-2-3">대표 기념품</button>
                         </div>
                         <div class="col col-6 col-sm-3">
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark last-btn" data-scroll-id="landmark-2-4">싱가포르의 화려한 밤</button>
@@ -188,7 +188,7 @@ $(document).ready(function(){
             $("#sub-tab-for-4").hide();
         } else if(_thisId == "restaurant-tab"){
             $("#sub-tab-for-4").fadeIn(function(){
-                
+
             });
             $("#sub-tab-for-2").hide();
             $("#sub-tab-for-3").hide();

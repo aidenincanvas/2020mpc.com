@@ -28,10 +28,7 @@
             <div class="row no-gutters">
                 <div class="col col-12">
                     <div class="img-wrapper" style="position:relative; overflow:hidden; width:100%; height:280px;">
-                        <h2>
-                            TOP MPC
-                        </h2>
-                        <img src="/images/top_mpc/img-slider-top-mpc.jpg" class="first-section-background" style="width:100%; min-width:1000px; position:absolute; right:0; bottom:0;">
+                        <img src="/images/for_gold/img-slider-for-gold.jpg" class="first-section-background" style="width:100%; min-width:1000px; position:absolute; right:0; bottom:0;">
                     </div>
                 </div>
             </div>
@@ -100,8 +97,7 @@
                                   </div>
                                   <div class="row justify-content-center">
                                       <div class="col col-8 text-center mb-5">
-                                          <span class="font-color-primary">에쿠아리우스 호텔</span>은 아시아 대륙의 최남단에 위치하고 있는 고귀한 진주 같은 존재입니다. 우거진 푸른 숲으로 둘러싸인 안식처로, 수많은 명소들과 아주 근접한 거리에 있습니다.
-                      센토사섬의 대부분은 가족 단위의 고객을 위한 호텔이지만, 이 곳은 고급스러운 휴양지 컨셉으로 차별화 되어 있습니다. 럭셔리한 객실 편의시설과 24시간 룸 서비스로 타의 추종을 불허한 독보적 서비스를 보장합니다.
+                                          <span class="font-color-primary">에쿠아리우스 호텔</span>은 아시아 대륙의 최남단에 위치하고 있는 고귀한 진주 같은 존재입니다. 우거진 푸른 숲으로 둘러싸인 안식처로, 수많은 명소들과 아주 근접한 거리에 있습니다. 센토사섬의 대부분은 가족 단위의 고객을 위한 호텔이지만, 이 곳은 고급스러운 휴양지 컨셉으로 차별화 되어 있습니다. 럭셔리한 객실 편의시설과 24시간 룸 서비스로 타의 추종을 불허한 독보적 서비스를 보장합니다.
                                       </div>
                                   </div>
                                   <div class="row">
@@ -129,6 +125,8 @@
                                       <div class="col col-12">
                                           <div class="slider-1-1">
                                               <img src="/images/introduce/hotel/equarius/room/delux-room-1.jpg">
+                                              <img src="/images/introduce/hotel/equarius/room/delux-pool.jpg">
+                                              <img src="/images/introduce/hotel/equarius/room/delux-garden.jpg">
                                               <img src="/images/introduce/hotel/equarius/room/delux-room-2.jpg">
                                           </div>
                                       </div>
@@ -139,33 +137,6 @@
                                           <p class="amenities">
                                               전 객실 발코니 & 커피테이블 & 파라노믹뷰 / 이중 구조의 넓직한 화장실, 큰 욕조 / 이집션 코튼 침대 리넨 / 시몬스 “쿨맥스 럭스” 매트리스 / 42인치 LCD TV (37개의 채널) / 다리미 & 보드 / 전자 금고 / 무료 커피 & 티 머신 / 무료 WIFI 제공
                                           </p>
-                                      </div>
-                                  </div>
-                                  <div class="row mb-5">
-                                      <div class="col col-12">
-                                          <div class="slider-1-2 mb-3">
-                                              <img src="/images/introduce/hotel/equarius/room/delux-pool.jpg">
-                                              <img src="/images/introduce/hotel/equarius/room/delux-garden.jpg">
-                                          </div>
-                                      </div>
-                                      <div class="col col-12 mb-4">
-                                          <div class="title title-m font-color-black room-type">
-                                              디럭스 풀 / 가든뷰
-                                          </div>
-                                      </div>
-                                  </div>
-                                  <div class="row mb-5">
-                                      <div class="col col-12">
-                                          <div class="slider-1-3 mb-3">
-                                              <img src="/images/introduce/hotel/equarius/room/delux-suite-1.jpg">
-                                              <img src="/images/introduce/hotel/equarius/room/delux-suite-2.jpg">
-                                              <img src="/images/introduce/hotel/equarius/room/delux-suite-3.jpg">
-                                          </div>
-                                      </div>
-                                      <div class="col col-12 mb-4">
-                                          <div class="title title-m font-color-black room-type">
-                                              디럭스 스위트
-                                          </div>
                                       </div>
                                   </div>
                               </div>
@@ -222,7 +193,7 @@
                                               <img src="/images/introduce/hotel/equarius/restaurant/lounge.JPG">
                                           </div>
                                           <h5 class="font-color-black">
-                                              세션
+                                              에쿠아리우스 라운지
                                           </h5>
                                           <p class="mb-2">
                                               현대적인 디자인과 열대지방의 특색을 살린 자연의 색상이 따뜻하게 조화를 이룬 공간입니다. 클래식 하면서도 우아한 분위기를 자아내는 이 곳에서 칵테일을 즐기세요.
@@ -292,66 +263,82 @@
 
                           <!-- 관광지 안내 -->
                           <section class="introduce-section">
-                              <div class="container restaurant">
-                                  <!-- <div class="row">
-                                      <div class="col col-12">
-                                          <h3 class="sub-title">싱가포르 <em class="font-color-primary">추천 현지레스토랑</em></h3>
-                                          <p></p>
-                                      </div>
-                                  </div> -->
-                                  <div class="row d-flex justify-content-left">
-                                      <div class="col col-12 col-xs-12 col-sm-6 shop-info">
-                                          <div class="bordered-wrapper">
-                                              <img src="/images/top_mpc/img-location-shelt.jpg" class="mb-3" style="width:100%;">
-                                              <h5>쉴트호른</h5>
-                                              <p class="shop-description">
-                                                  2,970m에 있는 쉴트호른(Schilthorn)은 아이거(Eiger), 묀히(Mönch), 융프라우(Jungfrau)가 포함된 일명 “스위스 스카이라인(Swiss skyline)”이라 불리는 360도의 파노라마 전망과 회전 레스토랑 피츠 글로리아(Piz Gloria)의 맛있는 요리로 여행객들의 사랑을 받고 있습니다. 1960년대 말 007제임스 본드 영화시리즈 중에 하나인 여왕폐하 구출작전이 촬영된 곳으로 유명해졌으며, 이후 1967년 라우터 브루넨계곡의 슈테헬베르크부터 산정상까지 공중 케이블카가 운행되고 있습니다.
-                                              </p>
+                              <div class="container">
+                                  <div class="row d-flex justify-content-center">
+                                      <div class="col col-8 text-center">
+                                          <div class="title title-xxxl gold-title">
+                                              <span class="font-circular-light">GOLD</span>만의 특전사항1
                                           </div>
-                                      </div>
-                                      <div class="col col-12 col-xs-12 col-sm-6 shop-info">
-                                          <div class="bordered-wrapper">
-                                              <img src="/images/top_mpc/img-location-mulen.jpg" class="mb-3" style="width:100%;">
-                                              <h5>뮈렌마을</h5>
-                                              <p class="shop-description">
-                                                알프스에서 가장 알프스 다운 마을인 뮈렌은 베른 주에 속한 마을 중 가장 높은 곳에 위치한 일년 내내 주민이 거주하고 있는 마을이며, 해발 1,650미터의 양지바른 경사 지역, 라우터브루넨 계곡 높은 상부 지역에 있습니다.
-                                                2층 케이블 로프웨이는 용트림하는 폭포가 흐르며, 험준한 바위면으로 둘러 싸인 슈테헬베르그부터 출발하여 운행하는 동안 라우터브루넨 평지 위로 지낙가게 되며 차량 통행 금지 지역인 뮈렌 중심지로 향하게 되며, 뮈렌에 이어 더 올라가게 되며 2,970m 쉴트호른에 도달하게 됩니다.
-                                              </p>
-                                          </div>
-                                      </div>
-                                      <div class="col col-12 col-xs-12 col-sm-6 shop-info">
-                                          <div class="bordered-wrapper">
-                                              <img src="/images/top_mpc/img-location-luchren.jpg" class="mb-3" style="width:100%;">
-                                              <h5>루체른 호수 및 리기산</h5>
-                                              <p class="shop-description">
-                                                  루체른 호수의 정식 명칭은 “피어발트슈레터＂로, “4개의 숲속 나라의 호수＂라는 뜻입니다.
-                                                  아름다운 산들로 둘러 쌓인 루체른 호수는 스위스내에서 가장 다양하고 멋진 경관을 자랑합니다. 간혹 피요르도 풍경이 연상되기도 하는데, 온화한 호수 기후가 특징입니다. 오랜 역사를 간직하고 있는 다섯 척의 증기 외륜선과 우아한 15척의 샬롱 동력선을 타고 호수에서 즐기는 크루즈가 압권입니다.
-                                                  리기산은 알프스의 숨겨진 명봉우리이자 스위스인들이 가장 좋아하는 산으로 “산들의 여왕＂으로 불리 웁니다. 인터라켄의 융프라우나 쉴트호른에 비해 규모가 작고 해발고가 낮으나 전망이 아름답고 산세가 부드러워 하이킹을 즐기기에 좋습니다.
-                                              </p>
-                                          </div>
-                                      </div>
-                                      <div class="col col-12 col-xs-12 col-sm-6 shop-info">
-                                          <div class="bordered-wrapper">
-                                              <img src="/images/top_mpc/img-location-duomo.jpg" class="mb-3" style="width:100%;">
-                                              <h5>밀라노 두오모</h5>
-                                              <p class="shop-description">
-                                                이탈리아 밀라노 두오모는 성당 높이 157m 너비 92m에 이르는 세계에서 가장 거대한 고딕양식의 성당입니다. 14세기 갈레아초 비스콘티의 지휘에 착공되었고, 19세기 나폴레옹에 의해 완성되었습니다. 135개의 첨탑과 성모마리아와 밀라노의 성 암브로시오 주교의 일화를 기록한 청동문등으로 이루어져 있습니다.
-                                              </p>
-                                          </div>
-                                      </div>
-                                      <div class="col col-12 col-xs-12 col-sm-6 shop-info">
-                                          <div class="bordered-wrapper">
-                                              <img src="/images/top_mpc/img-location-vergamo.jpg" class="mb-3" style="width:100%;">
-                                              <h5>베르가모</h5>
-                                              <p class="shop-description">
-                                                  베르가모는 이탈리아 북부 룸바르디아 주, 알프스 산기슭에 자리잡고 있는 소도시 입니다.
-                                                  15세기부터 18세기까지 당시 지중해 지역의 강대국이었던 베체니아 공화국의 지배를 받았던 곳으로 베네치아 풍의 건축물을 곳곳에서 발견할 수 있습니다.
-                                                  ‘시타 바사＇라 불리우는 신시가지와 언덕위의 도시인 ‘시타 알타＇라는 곳으로 나뉘어져 있으며, 언덕위의 시타 알타로 올라갈 때는 푸티쿨라를 이용하여 이동할 수 있고 시타 바사는 도보로 쉽게 둘러볼 수 있습니다.
-                                              </p>
+
+                                          <div class="title title-s" style="margin-bottom:40px;">
+                                            " <span class="font-circular-medium">Fun Pass</span> - 센토사를 즐기는 가장 좋은방법 "
                                           </div>
                                       </div>
                                   </div>
+                                  <div class="row d-flex justify-content-center mb-3">
+                                      <div class="col col-12 col-sm-8">
+                                          <div class="img-wrap">
+                                              <img src="/images/for_gold/fun-pass.jpg" style="width:100%;">
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="row d-flex justify-content-center mb-3">
+                                      <div class="col col-12 col-sm-8">
+                                          <h5 class="title title-xl text-center mt-3 mb-3">
+                                              센토사 섬을 가장 잘 즐길 수 있는 방법
+                                          </h5>
+                                          <h5 class="title title-xl text-center">
+                                              <span class="font-color-black">골드분들만을 위한 특별한 선물</span>
+                                          </h5>
+                                          <!-- <p>
+                                            이 패스 한장이면 하루종일 센토사 섬을 완벽하게 즐기실 수 있습니다. 다양한 어트랙션을 이용해보세요. 4D어드벤처랜드, 메가집 어드벤처, S.E.A 아쿠아리움 등 이름만 들어도 알 수 있는 싱가포르의 매력적인 어트랜션들을 모두 입장 할 수 있습니다.
+                                          </p> -->
+                                      </div>
+                                  </div>
                               </div>
+
+                              <!-- <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:0.5rem;"></div>
+
+                              <div class="container">
+                                  <div class="row d-flex justify-content-left mb-3">
+                                      <div class="col col-12 col-xs-12 col-sm-8">
+                                          <div class="img-wrap">
+                                              <img src="/images/for_gold/attraction-1.jpg" style="width:100%;">
+                                          </div>
+                                      </div>
+                                      <div class="col col-12 col-xs-12 col-sm-4 align-self-end">
+                                          <h5 class="font-color-black">사용방법</h5>
+                                          <ul>
+                                              <li>바우처에 표기된 토큰 가격에 맞춰 원하시는 시설을 이용하시면 됩니다.</li>
+                                              <li>표기된 음료와 놀이시설 모두 이용이 가능합니다.</li>
+                                              <li>원하는 일정에 맞춰 최고의 코스를 이용하는 방법과 원하시는 어트랙션을 부분적으로 이용 하실 수 있습니다.</li>
+                                          </ul>
+                                      </div>
+                                  </div>
+                              </div>
+
+                              <div style="border-bottom: 1px solid #c8c8c8; margin-bottom:0.5rem;"></div>
+
+                              <div class="container">
+                                  <div class="row d-flex justify-content-left mb-3">
+                                      <div class="col col-12 col-xs-12 col-sm-8">
+                                          <div class="img-wrap">
+                                              <img src="/images/for_gold/attraction-2.jpg" style="width:100%;">
+                                          </div>
+                                      </div>
+                                      <div class="col col-12 col-xs-12 col-sm-4 align-self-end">
+                                          <h5 class="font-color-black">추천 <span class="font-circular-medium">Fun Pass</span> 어트랙션</h5>
+                                          <ol>
+                                              <li>어드벤쳐 코브</li>
+                                              <li>센토사 루지&스카이라이드</li>
+                                              <li>센토사섬 버스투어</li>
+                                              <li>머라이언 와플+커피</li>
+                                              <li>비치클럽 카약</li>
+                                          </ol>
+                                      </div>
+                                  </div>
+                              </div>
+                               -->
                           </section>
 
 
@@ -500,13 +487,16 @@
                                               <span class="font-circular-light">GOLD</span>만의 특전사항2
                                           </div>
 
-                                          <div class="title title-s">
-                                            특별한 식사
+                                          <div class="title title-s" style="margin-bottom:40px;">
+                                            " 특별한 식사 "
                                           </div>
                                       </div>
                                   </div>
                                   <div class="row d-flex justify-content-center">
-                                      <div class="col col-12 col-md-10 col-lg-8">
+                                      <div class="col col-12 col-lg-6">
+                                          <img src="/images/for_gold/gold-lunch.jpg" class="mb-3">
+                                      </div>
+                                      <div class="col col-12 col-lg-6">
                                           <img src="/images/for_gold/gold-dinner.jpg" class="mb-3">
                                       </div>
                                   </div>
@@ -584,7 +574,7 @@ $(document).ready(function(){
                 adaptiveHeight: true,
                 arrow:true
             });
-        },1000);    
+        },1000);
     });
 });
 

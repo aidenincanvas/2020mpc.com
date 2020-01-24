@@ -26,7 +26,7 @@
           </div>
           <div class="row">
               <div class="col">
-                  <a href="http://citytours.sg/singapore-hop-on-off-bus-schedule.html" class="btn btn-primary btn-block" target="_blank">
+                  <a href="https://citytours.sg/singapore-hop-on-hop-off-bus-schedule.html#city-attractions-route" class="btn btn-primary btn-block" target="_blank">
                       펀비버스 시간표 바로가기
                   </a>
               </div>
@@ -41,6 +41,10 @@
                   <img src="/images/introduce/img-jumbo-seafood.jpg" class="mb-3 img-1">
               </div>
               <div class="col col-12 col-md-4 align-self-end">
+                  <div class="title title-m" style="margin-bottom:3rem;">
+                      싱가포르에서 가장 유명한 씨푸드 레스토랑
+                      <span class="font-color-primary">MPC일정 마지막 저녁식사를 드시는 장소!!</span>
+                  </div>
                   <div class="title title-xs">
                       칠리크랩 <span class="font-circular-light">Best</span> 3
                   </div>

@@ -85,9 +85,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col col-8 text-center mb-5">
-                    <span class="font-color-primary">페스티브 호텔</span>은 싱가포르 최초의 통합형 리조트입니다.<br>
-                    이 호텔에는 세계 최대의 해양 수족관인  S.E.A 아쿠아리움(S.E.A. Aquarium)과 워터파크(Adventure Cove Waterpark)가 자리하고 있습니다.
-                    풍부한 놀거리와 우수한 서비스로, 아이와 함께하는 가족 단위의 고객들에게는 가장 이상적인 여행지가 될 것입니다.
+                    <span class="font-color-primary">페스티브 호텔</span>은 싱가포르 최초의 통합형 리조트로 풍부한 놀거리와 우수한 서비스 그리고 아이와 함께하는 가족들에 게 최적화된 호텔입니다.
                 </div>
             </div>
             <div class="row">
@@ -108,10 +106,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col col-8 text-center mb-5">
-                    <span class="font-color-primary">페스티브 호텔</span>은 32sqm의 크기이며, 밝고 세련된 인테리어로 가족들에게 아늑한 공간을 제공합니다.<br>
-                    모든 방에는 고급스러운 침대와 더블베드로 펼쳐지는 소파 베드가 비치되어 있습니다.
-                    아이들을 위한 2층 침대가 준비되어 있으며 객실타입도 있으며 영, 유아의 자녀를 둔 고객님께는 요청에 따라 요람과 베이비시트를 제공해드립니다.
-                    본 구성은 특히 가족단위 고객님께는 최고의 휴가지가 될 것입니다.
+                    <span class="font-color-primary">페스티브 호텔</span>은 32sqm의 크기이며, 밝고 세련된 인테리어 로 가족들에게 아늑한 공간을 제공합니다. 모든방에는 고급 스러운 침대와 더블베드로 펼쳐지는 소파 베드가 비치되어 있습니다.
                 </div>
             </div>
             <div class="row mb-5">
@@ -143,7 +138,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row mb-5">
+            <!-- <div class="row mb-5">
                 <div class="col col-12">
                     <div class="slider-1-3 mb-3">
                         <img src="/images/introduce/hotel/festive/room/delux-pool.jpg">
@@ -156,7 +151,7 @@
                         디럭스 풀 / 가든 뷰
                     </div>
                 </div>
-            </div>
+            </div> -->
         </div>
         <!--/ 객실소개 -->
 
@@ -307,7 +302,7 @@
                 </div>
                 <div class="col col-12 col-lg-6 mb-4">
                     <div class="mb-3">
-                        <img src="/images/introduce/hotel/hard-rock/restaurant/session.JPG">
+                        <img src="/images/introduce/hotel/hard-rock/restaurant/the-rock-bar.png">
                     </div>
                     <h5 class="font-color-black">
                         더 락 바
@@ -326,7 +321,7 @@
                 </div>
                 <div class="col col-12 col-lg-6 mb-4">
                     <div class="mb-3">
-                        <img src="/images/introduce/hotel/hard-rock/restaurant/the-rock-bar.png">
+                        <img src="/images/introduce/hotel/hard-rock/restaurant/session.JPG">
                     </div>
                     <h5 class="font-color-black">
                         세션

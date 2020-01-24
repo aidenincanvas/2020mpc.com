@@ -82,7 +82,7 @@
                   </div>
                   <div class="col col-12 col-lg-7 third-col align-self-center">
                       <p class="description">
-                          싱가포르의 시차는 한국시간보다 1시간 느립니다.
+                          싱가포르의 시간은 한국시간보다 1시간 느립니다.
                       </p>
                   </div>
               </div>

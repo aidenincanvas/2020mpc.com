@@ -20,15 +20,6 @@
         </div>
     </section>
 
-    <div id="centered-video" style="display:none;">
-<?php if($is_logged == "YES"){?>
-        <button type="button" class="btn btn-video-close">
-            영상닫기
-        </button>
-        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RA-Ykgw7eu4?controls=1&autoplay=1&rel=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-<?php }?>
-    </div>
-
     <!-- Footer include -->
     <?php include_once('u_footer.php');?>
     <!--// Footer include -->
