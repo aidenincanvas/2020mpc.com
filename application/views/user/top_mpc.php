@@ -35,9 +35,12 @@
             <div class="container">
                 <div class="row">
                     <div class="col col-12">
-                        <ul class="nav nav-tabs tab-3" id="contents-tab" role="tablist">
+                        <ul class="nav nav-tabs tab-4" id="contents-tab" role="tablist">
                           <li class="nav-item">
                             <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">여행개요</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" id="schedule-tab" data-toggle="tab" href="#schedule" role="tab" aria-controls="home" aria-selected="true">여행일정</a>
                           </li>
                           <li class="nav-item">
                             <a class="nav-link" id="tour-map-tab" data-toggle="tab" href="#tour-map" role="tab" aria-controls="profile" aria-selected="false">항공안내</a>
@@ -56,6 +59,8 @@
             <div class="row">
                 <div class="col">
                     <div class="tab-content" id="myTabContent">
+
+                      <!-- 여행개요 -->
                       <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
                           <section class="introduce-section">
                               <div class="container">
@@ -93,7 +98,129 @@
                               </div>
                           </section>
                       </div>
+                      <!--// 여행개요 -->
 
+                      <!-- 여행일정 -->
+                      <div class="tab-pane fade" id="schedule" role="tabpanel" aria-labelledby="schedule-tab">
+                          <section class="introduce-section">
+                              <div class="container">
+                                  <div class="row">
+                                      <div class="col">
+                                          <div class="table-responsive">
+                                              <table class="table time-table mb-5">
+                                                  <thead>
+                                                      <tr>
+                                                          <th></th>
+                                                          <th>Day1(5/2, 토)</th>
+                                                          <th>Day2(5/3, 일)</th>
+                                                          <th>Day3(5/4, 월)</th>
+                                                          <th>Day4(5/5, 화)</th>
+                                                      </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                      <tr>
+                                                          <td style="background:#d8eaf8;">오전</td>
+                                                          <td></td>
+                                                          <td>인터라켄 자유시간</td>
+                                                          <td>쉴트호른</td>
+                                                          <td>오전 자유시간<br>호텔 Check-out</td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td style="background:#d8eaf8;">오후</td>
+                                                          <td><strong>12:20</strong> 인천공항 출발</td>
+                                                          <td>중식 @ 루체른 유람선 <br><br> 리기산 투어</td>
+                                                          <td>중식<br>뮈렌마을</td>
+                                                          <td>중식<br>밀라노 이동 (약 4시간)</td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td style="background:#d8eaf8;">저녁</td>
+                                                          <td>
+                                                              <strong>17:30</strong>취리히 도착<br>
+                                                              취리히 - 인터라켄 이동<br>
+                                                              호텔 Check-in<br><br>
+                                                              자유석식
+                                                          </td>
+                                                          <td>
+                                                              루체른 시내관광<br>
+                                                              석식
+                                                          </td>
+                                                          <td>Welcome Dinner</td>
+                                                          <td>
+                                                              호텔도착 및 Check-in<br>
+                                                              석식
+                                                          </td>
+                                                      </tr>
+                                                  </tbody>
+                                              </table>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <div class="row">
+                                      <div class="col">
+                                          <div class="table-responsive">
+                                              <table class="table time-table">
+                                                  <thead>
+                                                      <tr>
+                                                          <th></th>
+                                                          <th>Day5(5/6, 수)</th>
+                                                          <th>Day6(5/7, 목)</th>
+                                                          <th>Day7(5/8, 금)</th>
+                                                          <th>Day8(5/9, 토)</th>
+                                                      </tr>
+                                                  </thead>
+                                                  <tbody>
+                                                      <tr>
+                                                          <td style="background:#d8eaf8;">오전</td>
+                                                          <td>밀라노 시내관광</td>
+                                                          <td rowspan="2">
+                                                              세라발데 아울렛<br>
+                                                              (셔틀버스 운행)및<br>
+                                                              자유일정
+                                                          </td>
+                                                          <td>자유시간 및 호텔 Check-out</td>
+                                                          <td></td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td style="background:#d8eaf8;">오후</td>
+                                                          <td>중식<br>자유일정</td>
+                                                          <td>중식<br>베르가모 관광</td>
+                                                          <td><strong>16:00</strong>인천도착</td>
+                                                      </tr>
+                                                      <tr>
+                                                          <td style="background:#d8eaf8;">저녁</td>
+                                                          <td>
+                                                              Farewell 및 Reception<br>
+                                                              <br>
+                                                              라스칼라극장 공연 관람
+                                                          </td>
+                                                          <td>
+                                                              자유석식
+                                                          </td>
+                                                          <td>
+                                                              공항 Check-in<br>
+                                                              자유석식<br><br>
+                                                              <strong>22:00</strong>밀라노 출발
+                                                          </td>
+                                                          <td></td>
+                                                      </tr>
+                                                  </tbody>
+                                              </table>
+                                          </div>
+                                      </div>
+                                  </div>
+                                  <!-- <div class="row">
+                                      <div class="col">
+                                          <p>
+                                              1차수 290개(하드락 50%/페스티브 50%) / 2차수 210(하드락 50% / 페스티브 50%) + 50(아쿠아리우스 - 스위트 2 객식 포함)
+                                          </p>
+                                      </div>
+                                  </div> -->
+                              </div>
+                          </section>
+                      </div>
+                      <!--// 여행일정 -->
+
+                      <!-- 항공안내 -->
                       <div class="tab-pane fade" id="tour-map" role="tabpanel" aria-labelledby="tour-map-tab">
                           <section class="introduce-section">
                               <div class="container">
@@ -127,7 +254,9 @@
                               </div>
                           </section>
                       </div>
+                      <!--// 항공안내 -->
 
+                      <!-- 관광지안내 -->
                       <div class="tab-pane fade" id="prepare" role="tabpanel" aria-labelledby="prepare-tab">
 
                           <!-- 관광지 안내 -->
@@ -328,6 +457,7 @@
                               </div>
                           </section> -->
                       </div>
+                      <!--// 관광지안내 -->
                     </div>
                 </div>
             </div>

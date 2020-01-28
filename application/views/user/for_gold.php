@@ -219,8 +219,8 @@
                                           </div>
                                       </div>
                                   </div>
-                                  <div class="row mb-4">
-                                      <div class="col col-12 col-lg-6 mb-5">
+                                  <div class="row mb-4 justify-content-center">
+                                      <!-- <div class="col col-12 col-lg-6 mb-5">
                                           <div class="img-wrap has-calc mb-3">
                                               <img src="/images/introduce/hotel/equarius/etc/pool-access.jpg">
                                           </div>
@@ -230,7 +230,7 @@
                                           <div>
                                               나무에 둘러싸인 이 한적한 공간은, 에쿠아리우스 호텔 1층(Pool access)을 사용하는 투숙객들에게 제한적으로 오픈됩니다.
                                           </div>
-                                      </div>
+                                      </div> -->
                                       <div class="col col-12 col-lg-6 mb-5">
                                           <div class="img-wrap has-calc mb-3">
                                               <img src="/images/introduce/hotel/equarius/etc/pool-beach.jpg">

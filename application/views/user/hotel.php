@@ -85,7 +85,7 @@
             </div>
             <div class="row justify-content-center">
                 <div class="col col-8 text-center mb-5">
-                    <span class="font-color-primary">페스티브 호텔</span>은 싱가포르 최초의 통합형 리조트로 풍부한 놀거리와 우수한 서비스 그리고 아이와 함께하는 가족들에 게 최적화된 호텔입니다.
+                    <span class="font-color-primary">페스티브 호텔</span>은 싱가포르 최초의 통합형 리조트로 풍부한 놀거리와 우수한 서비스 그리고 아이와 함께하는 가족들에게 최적화된 호텔입니다.
                 </div>
             </div>
             <div class="row">
