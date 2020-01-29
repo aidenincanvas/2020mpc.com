@@ -307,7 +307,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col col-12 col-md-6">
                     <p class="description">
                         중식 후 비치스테이션으로 무료 셔틀버스로 이동 아이플라이 도보 이동 가능
@@ -318,7 +318,7 @@
                         비치스테이션에서 제공된 패스로 샌토사 익스프래스 탑승 후 호워터프론트 스테이션으로 이동 후 도보로 호텔 이동
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -570,7 +570,7 @@
                     </p>
                 </div>
             </div>
-            <div class="row">
+            <!-- <div class="row">
                 <div class="col col-12 col-md-6">
                     <p class="description">
                         비치스테이션에서 점심 추천 장소는 무료로 제공되는 비치 트램 탑승
@@ -581,7 +581,7 @@
                         모든 일정 후 비치 트램을 타고 비치스테이션으로 이동 후 제공된 패스로 센토사 익스프래스 탑승 후 비보시티 스테이션으로 이동 후 비보시티 즐기기
                     </p>
                 </div>
-            </div>
+            </div> -->
         </div>
 
 
@@ -739,6 +739,9 @@
 
             <div class="row mb-4 d-flex justify-content-center row-eq-height">
                 <div class="col col-12 col-md-4 beach">
+                    <div class="img-wrap mb-2">
+                        <img src="/images/introduce/sentosa/schedule-3/tanjong-beach-club.jpg">
+                    </div>
                     <h6>
                         탄종비치클럽<span class="font-circular-medium">(Tanjong Beach Club)</span>
                     </h6>
@@ -754,6 +757,9 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-md-4 beach">
+                    <div class="img-wrap mb-2">
+                        <img src="/images/introduce/sentosa/schedule-3/FOC-sentosa-club.jpg">
+                    </div>
                     <h6>
                         <span class="font-circular-medium">FOC</span> 센토사 클럽<span class="font-circular-medium">(Foc Sentosa Club)</span>
                     </h6>
@@ -770,6 +776,9 @@
                     </ul>
                 </div>
                 <div class="col col-12 col-md-4 beach">
+                    <div class="img-wrap mb-2">
+                        <img src="/images/introduce/sentosa/schedule-3/olla-beach-club.jpg">
+                    </div>
                     <h6>
                         올라 비치클럽<span class="font-circular-medium">(Ola Beach Club)</span>
                     </h6>

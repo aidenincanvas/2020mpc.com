@@ -13,7 +13,7 @@
                 <div class="col col-12 col-lg-9">
                     <!-- <h3 style="margin-top:50px;">예약</h3> -->
                     <!-- slick slider -->
-                    <div class="reg-form-slider">
+                    <div class="reg-form-slider mb-3">
                         <!-- 여행일자 선택 -->
                         <div class="container">
                             <div class="row justify-content-center">
@@ -352,7 +352,7 @@
                                             </div>
                                             <div class="col">
                                                 <div class="input-wrapper type-input">
-                                                    <button type="submit" onclick="submit()" class="btn btn-primary btn-block">등록</button>
+
                                                 </div>
                                             </div>
                                         </div>
@@ -362,6 +362,11 @@
                         </div>
                         <!-- 여권 정보 입력 -->
                     </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col col-12 col-lg-9">
+                    <button type="submit" onclick="submit()" class="btn btn-primary btn-block">등록</button>
                 </div>
             </div>
         </div>
@@ -415,7 +420,7 @@ function build_data(){
 function submit(){
     $.ajax({
         type: 'POST',
-        url : "json.php?mode=",
+        url : "json_test.php",
         data: build_data(),
         dataType:"json",
         success : function(data, status, xhr) {

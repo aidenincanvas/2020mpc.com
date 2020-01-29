@@ -302,6 +302,23 @@
                 </div>
                 <div class="col col-12 col-lg-6 mb-4">
                     <div class="mb-3">
+                        <img src="/images/introduce/hotel/hard-rock/restaurant/session.JPG">
+                    </div>
+                    <h5 class="font-color-black">
+                        세션
+                    </h5>
+                    <p class="mb-2">
+                        풀 코스가 제공되는 세션 레스토랑은, 싱가포르에서 새로운 요리계 허브로 떠오르고 있습니다.
+                    </p>
+                    <ul class="dotted_info">
+                        <li><i class="far fa-clock fa-fw font-color-secondary"></i>
+                            아침 (07:30-10:30), 점심(12:00-14:30), 저녁(18:00-21:30), 디저트섹션 (12:00-22:00)
+                        </li>
+                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> 하드락 호텔 로비 층</li>
+                    </ul>
+                </div>
+                <div class="col col-12 col-lg-6 mb-4">
+                    <div class="mb-3">
                         <img src="/images/introduce/hotel/hard-rock/restaurant/the-rock-bar.png">
                     </div>
                     <h5 class="font-color-black">
@@ -315,23 +332,6 @@
                         <li><i class="far fa-clock fa-fw font-color-secondary"></i>
                             13:00 – 01:00(익일), 해피아워(18:00 – 21:00)
                             매주 금요일&토요일 (20:00, 21:15, 22:30)마다 라이브 공연
-                        </li>
-                        <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> 하드락 호텔 로비 층</li>
-                    </ul>
-                </div>
-                <div class="col col-12 col-lg-6 mb-4">
-                    <div class="mb-3">
-                        <img src="/images/introduce/hotel/hard-rock/restaurant/session.JPG">
-                    </div>
-                    <h5 class="font-color-black">
-                        세션
-                    </h5>
-                    <p class="mb-2">
-                        풀 코스가 제공되는 세션 레스토랑은, 싱가포르에서 새로운 요리계 허브로 떠오르고 있습니다.
-                    </p>
-                    <ul class="dotted_info">
-                        <li><i class="far fa-clock fa-fw font-color-secondary"></i>
-                            아침 (07:30-10:30), 점심(12:00-14:30), 저녁(18:00-21:30), 디저트섹션 (12:00-22:00)
                         </li>
                         <li><i class="fas fa-map-signs fa-fw font-color-secondary"></i> 하드락 호텔 로비 층</li>
                     </ul>
