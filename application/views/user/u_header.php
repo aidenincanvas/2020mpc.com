@@ -60,7 +60,7 @@
             <a id="menu-hotel" class="nav-link" href="/hotel">호텔소개</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link coming-soon" href="#">예약</a>
+            <a class="nav-link" href="/registration">예약</a>
           </li>
           <li class="nav-item mr-auto">
             <a class="nav-link coming-soon font-circular-light" href="#">Mypage</a>

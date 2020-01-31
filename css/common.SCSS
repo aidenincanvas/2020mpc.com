@@ -534,6 +534,13 @@ $third-color:rgb(164, 208, 70);
 ****************************************************/
 
 #registration-form {
+    padding-bottom:120px;
+
+    h3 {
+        margin-top:3rem;
+        margin-bottom:1rem;
+    }
+
     .col {
         padding:8px;
     }
@@ -548,7 +555,7 @@ $third-color:rgb(164, 208, 70);
     .input-wrapper {
         border-bottom:1px solid #999;
 
-        input, select {
+        input, select, textarea {
             border:0;
             width:100%;
 
@@ -556,6 +563,10 @@ $third-color:rgb(164, 208, 70);
 
             font-size: 1rem;
             padding: 6px 5px 4px;
+
+            &:disabled {
+                background:rgb(235,235,235);
+            }
         }
 
         &.type-input {
@@ -570,6 +581,17 @@ $third-color:rgb(164, 208, 70);
                 -webkit-appearance: none;
                 appearance: none;
             }
+        }
+
+        &.type-textarea {
+            textarea {
+                -webkit-appearance: none;
+                appearance: none;
+            }
+        }
+
+        &.no-border-bottom {
+            border-bottom:0;
         }
     }
 
@@ -588,16 +610,30 @@ $third-color:rgb(164, 208, 70);
 
 .reg-form-slider {
     padding-top:80px;
-    padding-bottom:80px;
+    padding-bottom:20px;
 
     h3 {
         margin-bottom:3rem;
     }
+
+    .slick-prev, .slick-next {
+        top: calc(50% + 70px);
+
+        &:before {
+            color:#000;
+        }
+    }
 }
 
-.slick-prev:before, .slick-next:before {
-    color:black;
+label {
+    margin-bottom:0;
 }
+
+#alerge_explain {
+    width:100%;
+    height:200px;
+}
+
 
 @media (max-width: 992px) {
     #contents-tab.nav-tabs .nav-link {
