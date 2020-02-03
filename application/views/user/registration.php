@@ -19,7 +19,7 @@
                                 <h3 class="font-color-black">여행일자 및 항공편</h3>
                                 <div class="container">
                                     <div class="row justify-content-center">
-                                        <div class="col col-12 col-sm-4 col-md-3 align-self-center text-right">
+                                        <div class="col col-12 col-sm-4 col-md-3 align-self-center input-title">
                                             여행일자
                                         </div>
                                         <div class="col col-12 col-sm-8 col-md-9">
@@ -38,7 +38,7 @@
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
-                                        <div class="col col-12 col-sm-4 col-md-3 align-self-center text-right">
+                                        <div class="col col-12 col-sm-4 col-md-3 align-self-center input-title">
                                             항공편
                                         </div>
                                         <div class="col col-12 col-sm-8 col-md-9">
@@ -100,7 +100,7 @@
                                 <h3 class="font-color-black">고객 정보</h3>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             아이디
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -110,7 +110,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             고객명
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -120,7 +120,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             직책
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -130,7 +130,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             지점명
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -140,7 +140,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             자비 추가 비용
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -150,7 +150,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             결제여부
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -180,7 +180,7 @@
                                 <h5>본인</h5>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             한글명
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -190,7 +190,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             영문성
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-3">
@@ -198,7 +198,7 @@
                                                 <input type="text" name="user_name_eng_sirname" id="user_name_eng_sirname">
                                             </div>
                                         </div>
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             영문명
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-3">
@@ -208,7 +208,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             법정 생년월일
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-3">
@@ -216,7 +216,7 @@
                                                 <input type="text" name="birthday" id="birthday">
                                             </div>
                                         </div>
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             나이(만)
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-3">
@@ -226,7 +226,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             연락처
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-3">
@@ -234,7 +234,7 @@
                                                 <input type="text" name="contact_number" id="contact_number">
                                             </div>
                                         </div>
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             성별
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-3">
@@ -244,7 +244,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             이메일
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -254,7 +254,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             비고사항
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -265,195 +265,17 @@
                                     </div>
                                 </div>
                                 <!--// 본인 -->
-                                <!-- 동승자 1 -->
-                                <div class="party-1" style="display:none;">
-                                    <h5 class="mt-3">동승자 1</h5>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                한글명
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-9">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="user_name_kr_1" id="user_name_kr_1" value="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                영문성
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="user_name_eng_sirname_1" id="user_name_eng_sirname_1">
-                                                </div>
-                                            </div>
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                영문명
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="user_name_eng_name_1" id="user_name_eng_name_1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                법정 생년월일
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="birthday_1" id="birthday_1">
-                                                </div>
-                                            </div>
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                나이(만)
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="age_1" id="age_1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                연락처
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="contact_number_1" id="contact_number_1">
-                                                </div>
-                                            </div>
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                성별
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="gender_1" id="gender_1">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                이메일
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-9">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="email_1" id="email_1" value="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                비고사항
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-9">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="remarks_1" id="remarks_1" value="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
+                                <!-- 동승자 추가영역 -->
+                                <div id="party-area">
                                 </div>
-                                <!--// 동승자 1 -->
-                                <!-- 동승자 2 -->
-                                <div class="party-2" style="display:none;">
-                                    <h5 class="mt-3">동승자 2</h5>
-                                    <div class="container">
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                한글명
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-9">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="user_name_kr_2" id="user_name_kr_2" value="<?php  echo trim($_SESSION["user_name"]);?>" readonly>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                영문성
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="user_name_eng_sirname_2" id="user_name_eng_sirname_2">
-                                                </div>
-                                            </div>
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                영문명
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="user_name_eng_name_2" id="user_name_eng_name_2">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                법정 생년월일
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="birthday_2" id="birthday_2">
-                                                </div>
-                                            </div>
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                나이(만)
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="age_2" id="age_2">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                연락처
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="contact_number_2" id="contact_number_2">
-                                                </div>
-                                            </div>
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                성별
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-3">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="gender_2" id="gender_2">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                이메일
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-9">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="email_2" id="email_2" value="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="row">
-                                            <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                                비고사항
-                                            </div>
-                                            <div class="col col-12 col-xs-8 col-sm-9">
-                                                <div class="input-wrapper type-input">
-                                                    <input type="text" name="remarks_2" id="remarks_2" value="">
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!--// 동승자 2 -->
+                                <!--// 동승자 추가영역 -->
                                 <div class="container">
                                     <div class="row">
                                         <div class="col col-6">
-                                            <button type="button" onclick="setParty(0)" class="btn btn-primary btn-block">동반자 추가</button>
+                                            <button type="button" onclick="addParty()" class="btn btn-primary btn-block">동반자 추가</button>
                                         </div>
                                         <div class="col col-6">
-                                            <button type="button" onclick="setParty(1)" class="btn btn-danger btn-block">동반자 삭제</button>
+                                            <button type="button" onclick="removeParty()" class="btn btn-danger btn-block">동반자 삭제</button>
                                         </div>
                                     </div>
                                 </div>
@@ -468,7 +290,7 @@
                                 <h3 class="font-color-black">결제 정보</h3>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             카드정보
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
@@ -487,7 +309,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             유효기간
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
@@ -568,7 +390,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             CVC
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
@@ -578,7 +400,7 @@
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             할부선택
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
@@ -615,7 +437,7 @@
                                 <h3 class="font-color-black">여권 정보</h3>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             본인 여권사본
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -624,26 +446,10 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row party-1" style="display:none;">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                            동승자 여권사본 1
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
-                                            <div class="input-wrapper type-input">
-                                                <input type="file" name="passport" id="passport">
-                                            </div>
-                                        </div>
+                                    <!-- 동승자 여권 추가영역 -->
+                                    <div id="party-passport-area">
                                     </div>
-                                    <div class="row party-2" style="display:none;">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center text-right">
-                                            동승자 여권사본 2
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
-                                            <div class="input-wrapper type-input">
-                                                <input type="file" name="passport" id="passport">
-                                            </div>
-                                        </div>
-                                    </div>
+                                    <!--// 동승자 여권 추가영역 -->
                                 </div>
                             </div>
                         </div>
@@ -728,30 +534,139 @@ function selectDepartDate(_this_id){
 
 
 // 동승자 추가
-function setParty(_this_id){
+function addParty(){
 
-    if(_this_id == "0"){
-        if(party == "0"){
-            $(".party-1").show();
-            party++;
-        } else if(party == "1"){
-            $(".party-2").show();
-            party++;
-        } else if(party == "2"){
-            return false;
-        }
-    } else if(_this_id == "1"){
-        if(party == "0"){
-            return false;
-        } else if(party == "1"){
-            $(".party-1").hide();
-            party--;
-        } else if(party == "2"){
-            $(".party-2").hide();
-            party--;
-        }
+    party ++;
+
+    // 동승자 영역 추가
+    var partyHtml = '';
+
+    // 동승자 여권 추가
+    var partyPassportHtml = '';
+
+
+    partyHtml += '<div id="party-' + party + '" class="mt-5">';
+    partyHtml += '  <h5 class="mt-3">동승자 ' + party + '</h5>';
+    partyHtml += '      <div class="container">';
+    partyHtml += '          <div class="row">';
+    partyHtml += '              <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '                  한글명';
+    partyHtml += '              </div>';
+    partyHtml += '              <div class="col col-12 col-xs-8 col-sm-9">';
+    partyHtml += '                  <div class="input-wrapper type-input">';
+    partyHtml += '                      <input type="text" name="user_name_kr_1" id="user_name_kr_1" value="">';
+    partyHtml += '                  </div>';
+    partyHtml += '              </div>';
+    partyHtml += '          </div>';
+    partyHtml += '          <div class="row">';
+    partyHtml += '              <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '                  영문성';
+    partyHtml += '              </div>';
+    partyHtml += '              <div class="col col-12 col-xs-8 col-sm-3">';
+    partyHtml += '                  <div class="input-wrapper type-input">';
+    partyHtml += '                      <input type="text" name="user_name_eng_sirname_1" id="user_name_eng_sirname_1">';
+    partyHtml += '                  </div>';
+    partyHtml += '              </div>';
+    partyHtml += '              <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '                  영문명';
+    partyHtml += '              </div>';
+    partyHtml += '              <div class="col col-12 col-xs-8 col-sm-3">';
+    partyHtml += '                  <div class="input-wrapper type-input">';
+    partyHtml += '                      <input type="text" name="user_name_eng_name_1" id="user_name_eng_name_1">';
+    partyHtml += '                  </div>';
+    partyHtml += '              </div>';
+    partyHtml += '          </div>';
+    partyHtml += '  <div class="row">';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          법정 생년월일';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-3">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="text" name="birthday_1" id="birthday_1">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          나이(만)';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-3">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="text" name="age_1" id="age_1">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '  </div>';
+    partyHtml += '  <div class="row">';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          연락처';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-3">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="text" name="contact_number_1" id="contact_number_1">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          성별';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-3">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="text" name="gender_1" id="gender_1">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '  </div>';
+    partyHtml += '  <div class="row">';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          이메일';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-9">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="text" name="email_1" id="email_1" value="">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '  </div>';
+    partyHtml += '  <div class="row">';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          비고사항';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-9">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="text" name="remarks_1" id="remarks_1" value="">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '  </div>';
+    partyHtml += '</div>';
+    partyHtml += '      </div>';
+    partyHtml += '  </div>';
+
+    // 영역에 추가
+    $("#party-area").append(partyHtml);
+
+
+
+    partyPassportHtml += '<div id="party-passport-' + party + '" class="row">';
+    partyPassportHtml += '  <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyPassportHtml += '      동승자 여권사본 ' + party;
+    partyPassportHtml += '  </div>';
+    partyPassportHtml += '  <div class="col col-12 col-xs-8 col-sm-9">';
+    partyPassportHtml += '      <div class="input-wrapper type-input">';
+    partyPassportHtml += '          <input type="file" name="passport" id="passport">';
+    partyPassportHtml += '      </div>';
+    partyPassportHtml += '  </div>';
+    partyPassportHtml += '</div>';
+
+    // 영역에 추가
+    $("#party-passport-area").append(partyPassportHtml);
+}
+
+function removeParty(){
+    console.log("remove" + party);
+
+    if(party == "0"){
+        return false;
+    } else {
+        $("#party-" + party).remove();
+        $("#party-passport-" + party).remove();
+
+        party --;
     }
-
 }
 
 // 알러지 여부 및 설명
