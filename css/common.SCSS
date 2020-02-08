@@ -317,6 +317,15 @@ $third-color:rgb(164, 208, 70);
             }
         }
 
+        .description-type-1 {
+            padding:40px 40px 40px 70px;
+            .ignore-intend {
+                margin-left:-32px;
+                font-weight:700;
+                color:#333;
+            }
+        }
+
         .description-type-2 {
             padding:40px 40px 40px 70px;
             .ignore-intend {
@@ -552,6 +561,10 @@ $third-color:rgb(164, 208, 70);
         min-width: 100px;
     }
 
+    .input-title {
+        text-align:right;
+    }
+
     .input-wrapper {
         border-bottom:1px solid #999;
 
@@ -651,6 +664,19 @@ label {
         }
     }
 }
+
+@media (max-width: 576px) {
+    #registration-form {
+        .input-title {
+            text-align:left;
+        }
+    }
+}
+
+
+
+
+
 
 /****************************************************
 *****************************************************

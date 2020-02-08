@@ -18,74 +18,25 @@
                             <div class="col col-12 col-lg-9">
                                 <h3 class="font-color-black">여행일자 및 항공편</h3>
                                 <div class="container">
-                                    <div class="row justify-content-center">
-                                        <div class="col col-12 col-sm-4 col-md-3 align-self-center input-title">
-                                            여행일자
-                                        </div>
-                                        <div class="col col-12 col-sm-8 col-md-9">
-                                            <label for="depart-date-1" class="mr-5">
-                                                <input type="radio" name="depart-date" id="depart-date-1" class="depart-date mr-1" value="0318" checked>
-                                                <span>
-                                                    3월 18일
-                                                </span>
-                                            </label>
-                                            <label for="depart-date-2">
-                                                <input type="radio" name="depart-date" id="depart-date-2" class="depart-date mr-1" value="0319">
-                                                <span>
-                                                    3월 19일
-                                                </span>
-                                            </label>
+                                    <div class="row text-center">
+                                        <div class="col col-12">
+                                            <div class="seat-board">
+                                                <span>잔여 좌석 갯수</span>
+                                                <span class="available">87</span>/<span class="total">138</span>
+                                            </div>
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
-                                        <div class="col col-12 col-sm-4 col-md-3 align-self-center input-title">
-                                            항공편
-                                        </div>
-                                        <div class="col col-12 col-sm-8 col-md-9">
-                                            <div class="input-wrapper type-select">
-                                                <select name="flight_id" id="flight_id">
-                                                    <option value="" class="none_select" checked>
-                                                        항공편을 선택해주세요.
-                                                    </option>
-
-                                                    <!-- 3월 18일 -->
-                                                    <option value="" class="0318">
-                                                        대한항공 (인천 - 싱가포르 KE643편, 싱가포르 - 인천 KE644편)
-                                                    </option>
-                                                    <option value="" class="0318">
-                                                        대한항공 (인천 - 싱가포르 KE645편, 싱가포르 - 인천 KE646편)
-                                                    </option>
-                                                    <option value="" class="0318">
-                                                        아시아나 (인천 - 싱가포르 OZ751편, 싱가포르 - 인천 OZ752편)
-                                                    </option>
-                                                    <option value="" class="0318">
-                                                        싱가포르 (인천 - 싱가포르 SQ609편, 싱가포르 - 인천 SQ608편)
-                                                    </option>
-                                                    <option value="" class="0318">
-                                                        싱가포르 (인천 - 싱가포르 SQ607편, 싱가포르 - 인천 SQ602편)
-                                                    </option>
-                                                    <!--// 3월 18일 -->
-
-
-                                                    <!-- 3월 19일 -->
-                                                    <option value="" class="0319">
-                                                        대한항공 (인천 - 싱가포르 KE643편, 싱가포르 - 인천 KE644편)
-                                                    </option>
-                                                    <option value="" class="0319">
-                                                        아시아나 (인천 - 싱가포르 OZ751편, 싱가포르 - 인천 OZ752편)
-                                                    </option>
-                                                    <option value="" class="0319">
-                                                        싱가포르 (인천 - 싱가포르 SQ609편, 싱가포르 - 인천 SQ608편)
-                                                    </option>
-                                                    <option value="" class="0319">
-                                                        싱가포르 (인천 - 싱가포르 SQ607편, 싱가포르 - 인천 SQ602편)
-                                                    </option>
-                                                    <option value="" class="0319">
-                                                        제주항공 (인천 - 싱가포르 7C4055편, 싱가포르 - 인천 7C4056편)
-                                                    </option>
-                                                    <!--// 3월 19일 -->
-                                                </select>
-                                            </div>
+                                        <div class="col col-6">
+                                            <label>
+                                                <div>
+                                                    3월 18일
+                                                </div>
+                                                <div>
+                                                    대한항공 (인천 - 싱가포르 KE643편, 싱가포르 - 인천 KE644편)
+                                                </div>
+                                                <input type="hidden">
+                                            </label>
                                         </div>
                                     </div>
                                 </div>
@@ -139,7 +90,7 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <div class="row">
+                                    <!-- <div class="row">
                                         <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             자비 추가 비용
                                         </div>
@@ -165,7 +116,7 @@
                                                 </select>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                 </div>
                             </div>
                         </div>
@@ -245,6 +196,16 @@
                                     </div>
                                     <div class="row">
                                         <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
+                                            여권사본
+                                        </div>
+                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                            <div class="input-wrapper type-input">
+                                                <input type="file" name="passport" id="passport">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
                                             이메일
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
@@ -284,7 +245,7 @@
                     </div>
                     <!--/ 여행자 정보 입력 -->
                     <!-- 결제 정보 입력 -->
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="row justify-content-center">
                             <div class="col col-12 col-lg-9">
                                 <h3 class="font-color-black">결제 정보</h3>
@@ -428,17 +389,17 @@
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--/ 결제 정보 입력 -->
                     <!-- 여권 정보 입력 -->
-                    <div class="container">
+                    <!-- <div class="container">
                         <div class="row justify-content-center">
                             <div class="col col-12 col-lg-9">
                                 <h3 class="font-color-black">여권 정보</h3>
                                 <div class="container">
                                     <div class="row">
                                         <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            본인 여권사본
+                                            여권사본
                                         </div>
                                         <div class="col col-12 col-xs-8 col-sm-9">
                                             <div class="input-wrapper type-input">
@@ -446,14 +407,12 @@
                                             </div>
                                         </div>
                                     </div>
-                                    <!-- 동승자 여권 추가영역 -->
                                     <div id="party-passport-area">
                                     </div>
-                                    <!--// 동승자 여권 추가영역 -->
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- 여권 정보 입력 -->
                 </div>
             </div>
@@ -614,6 +573,16 @@ function addParty(){
     partyHtml += '  </div>';
     partyHtml += '  <div class="row">';
     partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    partyHtml += '          여권사본';
+    partyHtml += '      </div>';
+    partyHtml += '      <div class="col col-12 col-xs-8 col-sm-9">';
+    partyHtml += '          <div class="input-wrapper type-input">';
+    partyHtml += '              <input type="file" name="passport" id="passport" value="">';
+    partyHtml += '          </div>';
+    partyHtml += '      </div>';
+    partyHtml += '  </div>';
+    partyHtml += '  <div class="row">';
+    partyHtml += '      <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
     partyHtml += '          이메일';
     partyHtml += '      </div>';
     partyHtml += '      <div class="col col-12 col-xs-8 col-sm-9">';
@@ -641,23 +610,22 @@ function addParty(){
 
 
 
-    partyPassportHtml += '<div id="party-passport-' + party + '" class="row">';
-    partyPassportHtml += '  <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
-    partyPassportHtml += '      동승자 여권사본 ' + party;
-    partyPassportHtml += '  </div>';
-    partyPassportHtml += '  <div class="col col-12 col-xs-8 col-sm-9">';
-    partyPassportHtml += '      <div class="input-wrapper type-input">';
-    partyPassportHtml += '          <input type="file" name="passport" id="passport">';
-    partyPassportHtml += '      </div>';
-    partyPassportHtml += '  </div>';
-    partyPassportHtml += '</div>';
+    // partyPassportHtml += '<div id="party-passport-' + party + '" class="row">';
+    // partyPassportHtml += '  <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">';
+    // partyPassportHtml += '      동승자 여권사본 ' + party;
+    // partyPassportHtml += '  </div>';
+    // partyPassportHtml += '  <div class="col col-12 col-xs-8 col-sm-9">';
+    // partyPassportHtml += '      <div class="input-wrapper type-input">';
+    // partyPassportHtml += '          <input type="file" name="passport" id="passport">';
+    // partyPassportHtml += '      </div>';
+    // partyPassportHtml += '  </div>';
+    // partyPassportHtml += '</div>';
 
     // 영역에 추가
-    $("#party-passport-area").append(partyPassportHtml);
+    // $("#party-passport-area").append(partyPassportHtml);
 }
 
 function removeParty(){
-    console.log("remove" + party);
 
     if(party == "0"){
         return false;

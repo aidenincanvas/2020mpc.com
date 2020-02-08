@@ -38,7 +38,7 @@
                             <a class="nav-link active" data-toggle="tab" href="#time-table" role="tab" aria-controls="home" aria-selected="true"><span class="font-circular-light">2020MPC</span> 싱가포르 일정</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link" data-toggle="tab" href="#flight-seats" role="tab" aria-controls="profile" aria-selected="false">항공 좌석 현황</a>
+                            <a class="nav-link" data-toggle="tab" href="#flight-seats" role="tab" aria-controls="profile" aria-selected="false">항공 스케쥴</a>
                           </li>
                           <!-- <li class="nav-item">
                             <a class="nav-link" id="prepare-tab" data-toggle="tab" href="#prepare" role="tab" aria-controls="contact" aria-selected="false">추천관광안내</a>

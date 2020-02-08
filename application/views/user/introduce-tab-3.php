@@ -184,12 +184,12 @@
       <div  id="landmark-2-3" class="container landmark">
           <div class="row d-flex">
               <div class="col col-12 title title-xxl font-color-black">
-                  맛있는 기념품
+                  대표 기념품
               </div>
           </div>
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap-t-2 bordered bordered mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-pron.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -200,7 +200,7 @@
                   </p>
               </div>
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap-t-2 bordered bordered mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-owl-coffee.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -212,7 +212,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap-t-2 bordered bordered mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-kaya-jam.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -224,7 +224,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap-t-2 bordered bordered mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-griffon-tea.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -236,7 +236,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap-t-2 bordered bordered mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-sambil.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -248,7 +248,7 @@
               </div>
 
               <div class="col col-12 col-sm-6 col-md-4">
-                  <div class="img-wrap-t-2 bordered bordered mb-3">
+                  <div class="img-wrap-t-2 bordered mb-3">
                     <img src="/images/introduce/img-singapore-sling.jpg">
                   </div>
                   <div class="title title-s mb-3">
@@ -273,7 +273,7 @@
           </div>
           <div class="row d-flex justify-content-center" style="margin-bottom:4rem;">
               <div class="col col-12 col-xl-6">
-                  <div class="img-wrap-t-2 bordered mb-3">
+                  <div class="img-wrap-t-2 mb-3">
                     <img src="/images/introduce/img-one-altitude.jpg">
                   </div>
                   <div class="font-color-black" style="font-size:2.6rem;">
@@ -285,7 +285,7 @@
                   </p>
               </div>
               <div class="col col-12 col-xl-6">
-                  <div class="img-wrap-t-2 bordered mb-3">
+                  <div class="img-wrap-t-2 mb-3">
                     <img src="/images/introduce/img-level33.jpg">
                   </div>
                   <div class="font-color-black" style="font-size:2.6rem;">

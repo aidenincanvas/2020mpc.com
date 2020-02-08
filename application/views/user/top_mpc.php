@@ -111,10 +111,10 @@
                                                   <thead>
                                                       <tr>
                                                           <th></th>
-                                                          <th>Day1(5/2, 토)</th>
-                                                          <th>Day2(5/3, 일)</th>
-                                                          <th>Day3(5/4, 월)</th>
-                                                          <th>Day4(5/5, 화)</th>
+                                                          <th>1일차</th>
+                                                          <th>2일차</th>
+                                                          <th>3일차</th>
+                                                          <th>4일차</th>
                                                       </tr>
                                                   </thead>
                                                   <tbody>
@@ -162,10 +162,10 @@
                                                   <thead>
                                                       <tr>
                                                           <th></th>
-                                                          <th>Day5(5/6, 수)</th>
-                                                          <th>Day6(5/7, 목)</th>
-                                                          <th>Day7(5/8, 금)</th>
-                                                          <th>Day8(5/9, 토)</th>
+                                                          <th>5일차</th>
+                                                          <th>6일차</th>
+                                                          <th>7일차</th>
+                                                          <th>8일차</th>
                                                       </tr>
                                                   </thead>
                                                   <tbody>

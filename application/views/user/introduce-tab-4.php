@@ -59,7 +59,7 @@
             </div>
             <div class="row">
                 <div class="col col-12 col-md-6">
-                    <p class="description-type-2">
+                    <p class="description-type-1">
                         <span class="ignore-intend">특징</span> 오전에는 시원한 물놀이 더운 오후에는 실내공간에서 즐기는 가족 동반 추천 일정입니다.<br>
                         물놀이 시설을 온종일 이용하는 것도 좋지만 신비로운 만타가오리나 상어등을 보면서 즐거운 추억을 남기세요!
                     </p>
@@ -297,7 +297,7 @@
             </div>
             <div class="row">
                 <div class="col col-12 col-md-6">
-                    <p class="description-type-2">
+                    <p class="description-type-1">
                         <span class="ignore-intend">특징</span> 모험심이 강한 성인들을 위한 코스로 자이언트 스윙과 실내 스카이 다이빙을 통해서 도전 정신과 모험심을 이끌어낼 수 있는 일정입니다. 잊지 못할 추억을 만들어 보세요.
                     </p>
                 </div>
@@ -560,7 +560,7 @@
             </div>
             <div class="row">
                 <div class="col col-12 col-md-6">
-                    <p class="description">
+                    <p class="description-type-1">
                         <span class="ignore-intend">특징</span> 센토사 필수 코스인 스카이라인 루지를 타고 센토사 최고 맛집에서 점심을 먹고 비치워크를 산책 하고 수영하면서 오후를 보내고 마지막으로 비보시티에서 쇼핑과 맛있는 먹거리로 하루를 마무리 해보세요. 가장 완벽한 일정이 아닐까요?
                     </p>
                 </div>
@@ -613,15 +613,17 @@
                     <div class="img-wrap has-calc mb-3">
                         <img src="/images/introduce/sentosa/schedule-3/Sky-Line-Ludge-01.jpg">
                     </div>
-                    <div class="img-wrap has-calc">
+                </div>
+                <div class="col col-12 col-md-6">
+                    <div class="img-wrap has-calc mb-3">
                         <img src="/images/introduce/sentosa/schedule-3/Sky-Line-Ludge-02.jpg">
                     </div>
                 </div>
-                <div class="col col-12 col-md-6">
+                <!-- <div class="col col-12 col-md-6">
                     <div class="img-wrap">
                         <img src="/images/introduce/sentosa/schedule-3/Sky-Line-Ludge-03.jpg">
                     </div>
-                </div>
+                </div> -->
             </div>
             <div class="row mb-3">
                 <div class="col col-12 col-md-2">
@@ -680,13 +682,15 @@
                 </div>
             </div>
             <div class="row mb-4 d-flex justify-content-center row-eq-height">
-                <div class="col col-12 col-md-6 beach align-self-center" style="padding:70px; text-align:center; font-weight:100; background:rgb(230,230,230);">
-                    <h6 style="margin-bottom:3rem;">
-                        "센토사 해안선에 펼쳐진 보석같은 세 곳의 비치"
-                    </h6>
-                    <p class="description">
-                        각 해변은 고유한 매력을 가지고 있습니다. 실로소 비치는 섬에서 가장 번화한 곳으로 다양한 레스토랑과 명소가 있습니다. 팔라완 비치의 놀이터, 공원 및 석호는 가족이 즐기기 완벽한 곳이며, 탄종 비치는 평온한 휴양지로 이상적인 장소 입니다.
-                    </p>
+                <div class="col col-12 col-md-6 beach" style="padding:70px; text-align:center; font-weight:100; background:rgb(230,230,230); border-right:15px solid rgb(255,255,255); border-left:15px solid rgb(255,255,255);">
+                    <div class="align-item-center">
+                        <h6 style="margin-bottom:3rem;">
+                            "센토사 해안선에 펼쳐진 보석같은<br>세 곳의 비치"
+                        </h6>
+                        <p class="description">
+                            각 해변은 고유한 매력을 가지고 있습니다. 실로소 비치는 섬에서 가장 번화한 곳으로 다양한 레스토랑과 명소가 있습니다. 팔라완 비치의 놀이터, 공원 및 석호는 가족이 즐기기 완벽한 곳이며, 탄종 비치는 평온한 휴양지로 이상적인 장소 입니다.
+                        </p>
+                    </div>
                 </div>
                 <div class="col col-12 col-md-6 beach">
                     <div class="img-wrap mb-2">
@@ -743,7 +747,8 @@
                         <img src="/images/introduce/sentosa/schedule-3/tanjong-beach-club.jpg">
                     </div>
                     <h6>
-                        탄종비치클럽<span class="font-circular-medium">(Tanjong Beach Club)</span>
+                        탄종비치클럽<br>
+                        <span class="font-circular-medium">Tanjong Beach Club</span>
                     </h6>
                     <p class="description mb-3">
                         싱가포르에서 비치 클럽이라고 하면 가장 먼저 떠올리는 곳은 TBC라고도 불리는 탄종 비치 클럽!  센토사섬의 가장 안쪽에 위치한 탄종 비치(Tanjong Beach)에 자리하고 있는 이 클럽은 매주 다양한 테마의 파티와 이벤트가 열리고 항상 손님들로 북적인답니다. 특히 바 옆에 있는 풀은 남녀노소 할 것 없이 인기가 많아요. 풀사이드의 베드는 미리 예약할 수도 있고, 인원수가 많은 경우에는 프라이빗 카바나를 예약할 수 있답니다. 인기가 많은 만큼 싱가포르의 공휴일에는 일찍부터 미리 예약을 하시는 것을 추천해요.
@@ -761,7 +766,8 @@
                         <img src="/images/introduce/sentosa/schedule-3/FOC-sentosa-club.jpg">
                     </div>
                     <h6>
-                        <span class="font-circular-medium">FOC</span> 센토사 클럽<span class="font-circular-medium">(Foc Sentosa Club)</span>
+                        <span class="font-circular-medium">FOC</span> 센토사 클럽<br>
+                        <span class="font-circular-medium">Foc Sentosa Club</span>
                     </h6>
                     <p class="description mb-3">
                         탄종 비치 클럽 다음으로 많이들 가는 비치클럽은 팔라완 비치와 탄종 비치 사이에 위치한 FOC Sentosa 클럽이랍니다! 바르셀로나의 비치클럽 문화에서 컨셉을 따왔다고 전해지는데요. 평소에는 간단하게 한잔하거나 식사를 하는 분위기가 좀더 강하지만, 가끔씩 일렉트로닉 뮤직파티가 열릴 때마다 이곳을 즐겨 찾는 매니아 층이 두텁다고 합니다.
@@ -780,7 +786,8 @@
                         <img src="/images/introduce/sentosa/schedule-3/olla-beach-club.jpg">
                     </div>
                     <h6>
-                        올라 비치클럽<span class="font-circular-medium">(Ola Beach Club)</span>
+                        올라 비치클럽<br>
+                        <span class="font-circular-medium">Ola Beach Club</span>
                     </h6>
                     <p class="description mb-3">
                         생명,건강과 복지라는 의미에 하와이어인 OLA에서 유래된 이름처럼 모두에게 행복한 해변에서의 기억을 만들어 주고싶은 장소인 올라 비치클럽은 실로소 비치에 위치해서 접근이 편하고 젯트 팩, 젯트 블래이드 같은 동력 스포츠 부터 스탠드업 패들보드, 카약같은 무동력 스포츠까지 다양한 엑티비티와 맛있는 음식과 멋진 음악이 어우러진 최고의 휴식을 제공할 장소입니다.
