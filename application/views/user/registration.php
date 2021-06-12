@@ -10,7 +10,7 @@
     <section id="registration-form" class="introduce-section first-section">
         <div class="container">
             <div class="row justify-content-center">
-                <div class="col col-10 col-lg-9">
+                <div class="col col-12 col-lg-9">
                     <!-- <h3 style="margin-top:50px;">예약</h3> -->
                     <!-- 여행일자 및 항공편 선택 -->
                     <div class="container">
@@ -21,23 +21,25 @@
                                     <div class="row text-center">
                                         <div class="col col-12">
                                             <div class="seat-board">
-                                                <span>잔여 좌석 갯수</span>
+                                                <span class="title mr-2">잔여 좌석 갯수</span>
                                                 <span class="available">87</span>/<span class="total">138</span>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row justify-content-center">
-                                        <div class="col col-6">
-                                            <label>
-                                                <div>
+
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="flight-selection">
+                                                <h4 class="depart-date">
                                                     3월 18일
-                                                </div>
-                                                <div>
+                                                </h4>
+                                                <div class="flight-id">
                                                     대한항공 (인천 - 싱가포르 KE643편, 싱가포르 - 인천 KE644편)
                                                 </div>
-                                                <input type="hidden">
+                                                <input type="hidden" name="flight-selection" checked>
                                             </label>
                                         </div>
+
                                     </div>
                                 </div>
                             </div>
@@ -51,42 +53,39 @@
                                 <h3 class="font-color-black">고객 정보</h3>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            아이디
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                아이디
+                                            </label>
                                             <div class="input-wrapper type-input">
                                                 <input type="text" name="user_id" id="user_id" value="<?php  echo trim($_SESSION["user_id"]);?>" readonly>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            고객명
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                고객명
+                                            </label>
                                             <div class="input-wrapper type-input">
                                                 <input type="text" name="user_name" id="user_name" value="<?php  echo trim($_SESSION["user_name"]);?>" readonly>
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            직책
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                직책
+                                            </label>
                                             <div class="input-wrapper type-input">
-                                                <input type="text" name="job_title" id="job_title">
+                                                <input type="text" name="job_title" id="job_title" value="부장" readonly>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            지점명
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                지점명
+                                            </label>
                                             <div class="input-wrapper type-input">
-                                                <input type="text" name="branch_name" id="branch_name">
+                                                <input type="text" name="branch_name" id="branch_name" value="해운대점" readonly>
                                             </div>
                                         </div>
                                     </div>
@@ -128,99 +127,90 @@
                             <div class="col col-12 col-lg-9">
                                 <h3 class="font-color-black">여행자 정보</h3>
                                 <!-- 본인 -->
-                                <h5>본인</h5>
+                                <h5>
+                                    본인
+                                    <span class="badge badge-pill badge-primary">회사지원</span>
+                                </h5>
                                 <div class="container">
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            한글명
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                한글명
+                                            </label>
                                             <div class="input-wrapper type-input">
                                                 <input type="text" name="user_name_kr" id="user_name_kr" value="<?php  echo trim($_SESSION["user_name"]);?>" readonly>
                                             </div>
                                         </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            영문성
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-3">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" name="user_name_eng_sirname" id="user_name_eng_sirname">
-                                            </div>
-                                        </div>
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            영문명
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-3">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" name="user_name_eng_name" id="user_name_eng_name">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            법정 생년월일
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-3">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" name="birthday" id="birthday">
-                                            </div>
-                                        </div>
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            나이(만)
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-3">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" name="age" id="age">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            연락처
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-3">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" name="contact_number" id="contact_number">
-                                            </div>
-                                        </div>
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            성별
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-3">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                성별
+                                            </label>
                                             <div class="input-wrapper type-input">
                                                 <input type="text" name="gender" id="gender">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            여권사본
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                영문성
+                                            </label>
                                             <div class="input-wrapper type-input">
-                                                <input type="file" name="passport" id="passport">
+                                                <input type="text" name="user_name_eng_sirname" id="user_name_eng_sirname">
+                                            </div>
+                                        </div>
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                영문명
+                                            </label>
+                                            <div class="input-wrapper type-input">
+                                                <input type="text" name="user_name_eng_name" id="user_name_eng_name">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            이메일
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                법정 생년월일
+                                            </label>
+                                            <div class="input-wrapper type-input">
+                                                <input type="text" name="birthday" id="birthday">
+                                            </div>
                                         </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                나이(만)
+                                            </label>
+                                            <div class="input-wrapper type-input">
+                                                <input type="text" name="age" id="age">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                연락처
+                                            </label>
+                                            <div class="input-wrapper type-input">
+                                                <input type="text" name="contact_number" id="contact_number">
+                                            </div>
+                                        </div>
+                                        <div class="col col-12 col-sm-6">
+                                            <label class="input-title">
+                                                이메일
+                                            </label>
                                             <div class="input-wrapper type-input">
                                                 <input type="text" name="email" id="email" value="">
                                             </div>
                                         </div>
                                     </div>
                                     <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            비고사항
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
+                                        <div class="col col-12">
+                                            <label class="input-title">
+                                                여권사본
+                                            </label>
                                             <div class="input-wrapper type-input">
-                                                <input type="text" name="remarks" id="remarks" value="">
+                                                <input type="file" name="passport" id="passport">
                                             </div>
                                         </div>
                                     </div>
@@ -244,181 +234,34 @@
                         </div>
                     </div>
                     <!--/ 여행자 정보 입력 -->
-                    <!-- 결제 정보 입력 -->
-                    <!-- <div class="container">
+                    <!-- 추가 비고사항 -->
+                    <div class="container">
                         <div class="row justify-content-center">
                             <div class="col col-12 col-lg-9">
-                                <h3 class="font-color-black">결제 정보</h3>
+                                <h3 class="font-color-black">
+                                    비고사항
+                                    <input type="checkbox" name="remarks" id="remarks">
+                                </h3>
                                 <div class="container">
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            카드정보
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" maxlength="4" name="credit_card-1">
-                                            </div>
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" maxlength="4" name="credit_card-2">
-                                            </div>
-                                            <div class="input-wrapper type-input">
-                                                <input type="password" maxlength="4" name="credit_card-3">
-                                            </div>
-                                            <div class="input-wrapper type-input">
-                                                <input type="password" maxlength="4" name="credit_card-4">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            유효기간
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
-                                            <div class="input-wrapper type-select">
-                                                <select name="expired-month" id="expired-month">
-                                                    <option value="0">
-                                                        월
-                                                    </option>
-                                                    <option value="1">
-                                                        1
-                                                    </option>
-                                                    <option value="2">
-                                                        2
-                                                    </option>
-                                                    <option value="3">
-                                                        3
-                                                    </option>
-                                                    <option value="4">
-                                                        4
-                                                    </option>
-                                                    <option value="5">
-                                                        5
-                                                    </option>
-                                                    <option value="6">
-                                                        6
-                                                    </option>
-                                                    <option value="7">
-                                                        7
-                                                    </option>
-                                                    <option value="8">
-                                                        8
-                                                    </option>
-                                                    <option value="9">
-                                                        9
-                                                    </option>
-                                                    <option value="10">
-                                                        10
-                                                    </option>
-                                                    <option value="11">
-                                                        11
-                                                    </option>
-                                                    <option value="12">
-                                                        12
-                                                    </option>
-                                                </select>
-                                            </div>
-                                            <div class="input-wrapper type-select">
-                                                <select name="expired-year" id="expired-year">
-                                                    <option value="0">
-                                                        연
-                                                    </option>
-                                                    <option value="20">
-                                                        20
-                                                    </option>
-                                                    <option value="21">
-                                                        21
-                                                    </option>
-                                                    <option value="22">
-                                                        22
-                                                    </option>
-                                                    <option value="23">
-                                                        23
-                                                    </option>
-                                                    <option value="24">
-                                                        24
-                                                    </option>
-                                                    <option value="25">
-                                                        25
-                                                    </option>
-                                                    <option value="26">
-                                                        26
-                                                    </option>
-                                                    <option value="27">
-                                                        27
-                                                    </option>
-                                                </select>
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            CVC
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
-                                            <div class="input-wrapper type-input">
-                                                <input type="text" maxlength="3" name="credit_card-cvc">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            할부선택
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9 credit-card-form">
-                                            <div class="input-wrapper type-select">
-                                                <select name="credit_card-installment">
-                                                    <option value="1">
-                                                        일시불
-                                                    </option>
-                                                    <option value="2">
-                                                        2개월
-                                                    </option>
-                                                    <option value="3">
-                                                        3개월
-                                                    </option>
-                                                    <option value="4">
-                                                        4개월
-                                                    </option>
-                                                    <option value="5">
-                                                        5개월
-                                                    </option>
-                                                </select>
+                                    <div class="row justify-content-end">
+                                        <div class="col col-12">
+                                            <div class="input-wrapper type-textarea">
+                                                <textarea id="remark-text" name="remark-text" rows="8" disabled></textarea>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div> -->
-                    <!--/ 결제 정보 입력 -->
-                    <!-- 여권 정보 입력 -->
-                    <!-- <div class="container">
+                    </div>
+                    <!--// 추가 비고사항 -->
+                    <div class="container">
                         <div class="row justify-content-center">
                             <div class="col col-12 col-lg-9">
-                                <h3 class="font-color-black">여권 정보</h3>
-                                <div class="container">
-                                    <div class="row">
-                                        <div class="col col-12 col-xs-4 col-sm-3 align-self-center input-title">
-                                            여권사본
-                                        </div>
-                                        <div class="col col-12 col-xs-8 col-sm-9">
-                                            <div class="input-wrapper type-input">
-                                                <input type="file" name="passport" id="passport">
-                                            </div>
-                                        </div>
-                                    </div>
-                                    <div id="party-passport-area">
-                                    </div>
-                                </div>
+                                <button type="submit" onclick="vertification()" class="btn btn-primary btn-block mt-3">등록</button>
                             </div>
                         </div>
-                    </div> -->
-                    <!-- 여권 정보 입력 -->
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col col-12 col-lg-9">
-                    <button type="submit" onclick="vertification()" class="btn btn-primary btn-block mt-3">등록</button>
+                    </div>
                 </div>
             </div>
         </div>
@@ -462,6 +305,13 @@ $(document).ready(function(){
         setAlerge(_this_id);
     });
 
+    // 비고사항 선택
+    $("#remarks").on("change",function(){
+
+        var _this_id = $(this).prop('checked');
+
+        setRemarks(_this_id);
+    });
 
 });
 
@@ -647,6 +497,20 @@ function setAlerge(_this_id){
     }
 
 }
+
+// 비고사항
+function setRemarks(_this_id){
+
+    if(_this_id == true){
+        $("#remark-text").prop("disabled", false);
+    } else if(_this_id == false){
+        $("#remark-text").prop("disabled", true);
+        $("#remark-text").val("");
+    }
+
+}
+
+
 
 function build_data(){
     var sendData = $("#registration-form").serialize();

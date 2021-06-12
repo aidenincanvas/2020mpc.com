@@ -98,12 +98,12 @@
             </div>
             <div class="row mb-4">
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc">
+                    <div class="img-wrap">
                         <img src="/images/introduce/sentosa/schedule-1/adventure-cove-2.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc">
+                    <div class="img-wrap">
                         <img src="/images/introduce/sentosa/schedule-1/adventure-cove-3.jpg" class="mb-3">
                     </div>
                 </div>
@@ -174,12 +174,12 @@
             </div>
             <div class="row mb-4">
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc">
+                    <div class="img-wrap">
                         <img src="/images/introduce/sentosa/schedule-1/S.E.A-aquarium-01.jpg" class="mb-3">
                     </div>
                 </div>
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc">
+                    <div class="img-wrap">
                         <img src="/images/introduce/sentosa/schedule-1/S.E.A-aquarium-02.jpg" class="mb-3">
                     </div>
                 </div>
@@ -347,12 +347,12 @@
             </div>
             <div class="row mb-4">
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc mb-3">
+                    <div class="img-wrap mb-3">
                         <img src="/images/introduce/sentosa/schedule-2/AJ-Hackett-02.jpg">
                     </div>
                 </div>
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc mb-3">
+                    <div class="img-wrap mb-3">
                         <img src="/images/introduce/sentosa/schedule-2/AJ-Hackett-03.jpg">
                     </div>
                 </div>
@@ -422,12 +422,12 @@
             </div>
             <div class="row mb-4">
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc mb-3">
+                    <div class="img-wrap mb-3">
                         <img src="/images/introduce/sentosa/schedule-2/I-FLY-01.jpg">
                     </div>
                 </div>
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc mb-3">
+                    <div class="img-wrap mb-3">
                         <img src="/images/introduce/sentosa/schedule-2/I-FLY-02.jpg">
                     </div>
                 </div>
@@ -610,12 +610,12 @@
             </div>
             <div class="row mb-4">
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc mb-3">
+                    <div class="img-wrap mb-3">
                         <img src="/images/introduce/sentosa/schedule-3/Sky-Line-Ludge-01.jpg">
                     </div>
                 </div>
                 <div class="col col-12 col-md-6">
-                    <div class="img-wrap has-calc mb-3">
+                    <div class="img-wrap mb-3">
                         <img src="/images/introduce/sentosa/schedule-3/Sky-Line-Ludge-02.jpg">
                     </div>
                 </div>

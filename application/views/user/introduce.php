@@ -53,7 +53,7 @@
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-3">리버 사이드</button>
                         </div>
                         <div class="col col-6 col-sm-4 col-lg-2">
-                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4">아랍스트리트, 부기스</button>
+                            <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-4">아랍스트리트</button>
                         </div>
                         <div class="col col-6 col-sm-4 col-lg-2">
                             <button type="button" class="btn btn-no-radius btn-block scroll-to-landmark" data-scroll-id="landmark-5">차이나타운</button>
@@ -200,8 +200,6 @@ $(document).ready(function(){
 
 });
 
-
-
 imgRatioController();
 
 $(window).scroll(function(){
@@ -229,16 +227,16 @@ $(window).scroll(function(){
         );
     }
 
-    scroll_landmark();
+    // scroll_landmark();
 });
 
 $(window).resize(function(){
     imgRatioController();
 });
 
-function scroll_landmark(){
-
-}
+// function scroll_landmark(){
+//
+// }
 
 </script>
 </html>

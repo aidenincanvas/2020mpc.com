@@ -37,14 +37,16 @@
 
       <div id="landmark-2-2" class="container landmark">
           <div class="row d-flex" style="margin-bottom:4rem;">
+              <div class="col col-12 mb-3">
+                  <div class="title title-m">
+                      싱가포르에서 가장 유명한 씨푸드 레스토랑
+                      <span class="font-color-primary">MPC일정 마지막 저녁식사를 드시는 장소!!</span>
+                  </div>
+              </div>
               <div class="col col-12 col-md-8">
                   <img src="/images/introduce/img-jumbo-seafood.jpg" class="mb-3 img-1">
               </div>
               <div class="col col-12 col-md-4 align-self-end">
-                  <div class="title title-m" style="margin-bottom:3rem;">
-                      싱가포르에서 가장 유명한 씨푸드 레스토랑
-                      <span class="font-color-primary">MPC일정 마지막 저녁식사를 드시는 장소!!</span>
-                  </div>
                   <div class="title title-xs">
                       칠리크랩 <span class="font-circular-light">Best</span> 3
                   </div>
